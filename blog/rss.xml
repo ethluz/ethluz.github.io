@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luz-blog]]></title><description><![CDATA[ETH gatsbyjs nodejs 程序员]]></description><link>https://ethluz.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 06 Sep 2018 04:13:33 GMT</lastBuildDate><atom:link href="https://ethluz.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[喜欢你吗]]></title><description><![CDATA[Why use Drupal + Gatsby together? Kyle Mathews is presenting on “Gatsby + Drupal” at  Decoupled Drupal Days NYC  this Saturday; for those…]]></description><link>https://ethluz.github.io/blog/2018-08-13-using-decoupled-drupal-with-gatsby/dowork/</link><guid isPermaLink="false">https://ethluz.github.io/blog/2018-08-13-using-decoupled-drupal-with-gatsby/dowork/</guid><content:encoded>&lt;h2 id=&quot;why-use-drupal--gatsby-together&quot;&gt;&lt;a href=&quot;#why-use-drupal--gatsby-together&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Why use Drupal + Gatsby together?&lt;/h2&gt;
+&lt;p&gt;Kyle Mathews is presenting on “Gatsby + Drupal” at &lt;a href=&quot;https://2018.decoupleddays.com/session/decoupled-drupal-gatsby&quot;&gt;Decoupled Drupal Days NYC&lt;/a&gt; this Saturday; for those who can’t make it to his presentation, we wanted to give you a sneak peak of what it will be about.&lt;/p&gt;
+&lt;p&gt;(Hint: it’s about how nicely Gatsby and Drupal work together!)&lt;/p&gt;
+&lt;p&gt;Take a look at the source code of &lt;a href=&quot;https://github.com/gatsbyjs/gatsby/tree/master/examples/using-drupal&quot;&gt;the official Gatsby + Drupal example site&lt;/a&gt; or &lt;a href=&quot;https://using-drupal.gatsbyjs.org/&quot;&gt;see it live&lt;/a&gt;. Gatsby co-founder, Kyle Mathews, has a &lt;a href=&quot;https://www.gatsbyjs.org/blog/2018-05-24-launching-new-gatsby-company/#drupal-and-the-lamp-stack&quot;&gt;long history with Drupal&lt;/a&gt; and built this example site in Gatsby’s early days:&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/umami-site-9ab2351d646dbd04e4724c94d609480f-91ed9.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 786px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 65.4%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAACyElEQVQ4y5WT60tUYRDG96/oi0T0IbpiRVhkQaVdSBQrVwpDw+iqZlQUQUYi9SHywpYWliSlCEqiomZm5p3SQrNcNTetzMu67np213LXPefsr/ccSyoI6oXhHeadeeY588wxuJw2phzjTLvtuklTViYnRtDi3hknnm/SP5mGMfN1CoPT6aSuro6BgQEsFgtu9zT/e/x+/7xvUFWVnh4zLS0tNDxvwGaz6Q9aHD3RrxeoijxviiqLmCpyFPwiz+uZwSlJeo3hbx1/tf85OkNF66yqc6zmEH9L8npnaa8ooLf6Hv2NpbR2FDFuH2FwsI/PnbWMdpUx+L4JWVHnAK1WK0NDQ0xO2oQYEpLkELcTh8OOx+Ph67Sb+7GbqUlYR0nSBjJMe8XcH5Kwfwe3E41UZMVz91YsDvsEBm0Wbte0UMmFxsungCKcWdmPzyfrDN2iSdnVOOrSD1GaEkn5tSgq87KJXLKI3H0beXH9MM2tzYKIE4NPILiE7MP2fnrftjM62E7343RePS3mWdVj2ps6dOUfHdtN/YlQimKCqD6/her8O6RGbCVz1xqqEkKwNFUKMuKTXVMSxaW5pGYK6ndOMvQii8yjK8mMCeTmKSO5pgze9VnobGjjZWUtbxpbaaiup7vbzIcBM+a2ej71dPHR3MWM24VhfGyMiPAwkuMiyEkKpq0gmfxLRk6Hr+bM8oWkGjdR/OQhstBrUjD1iXGo+mhUvnm8eMSDFlP0BRMq+8SsTNkpRO0PITRoMQ8uhFCRFst5YyCxB1cQtTOA7PzLujhfhod14bzC19bJNjHB2OiIuK0osqzHDD6BWlhwg+iItQQuXYZx+wJKTAmYMo6wwxhA8rGVFOZd0IVSFAVZFGq3th0agOb/3FW/KgDdkpWamnIuXonmePx2zh5Yz7nEMPZEBnMgehU5advo633Nj5L53Zzf2T9+hu+y5nkERRWkDQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px #ffffff;&quot;
+        alt=&quot;Screenshot of decoupled Drupal site build with Gatsby&quot;
+        title=&quot;&quot;
+        src=&quot;/static/umami-site-9ab2351d646dbd04e4724c94d609480f-c4266.png&quot;
+        srcset=&quot;/static/umami-site-9ab2351d646dbd04e4724c94d609480f-4fd5b.png 197w,
+/static/umami-site-9ab2351d646dbd04e4724c94d609480f-4fc86.png 393w,
+/static/umami-site-9ab2351d646dbd04e4724c94d609480f-c4266.png 786w,
+/static/umami-site-9ab2351d646dbd04e4724c94d609480f-91ed9.png 1000w&quot;
+        sizes=&quot;(max-width: 786px) 100vw, 786px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://using-drupal.gatsbyjs.org/&quot;&gt;A delicious Gatsby + Drupal site&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Using Drupal as a headless CMS with Gatsby is a great way to get an enterprise-quality CMS for free, paired with a great modern development experience and all the benefits of the JAMstack, like performance, scalability, and security.&lt;/p&gt;
+&lt;p&gt;It only takes a few steps to use Gatsby with Drupal as a headless CMS (also known as decoupled Drupal).&lt;/p&gt;
+&lt;h2 id=&quot;how-to-implement-drupal--gatsby&quot;&gt;&lt;a href=&quot;#how-to-implement-drupal--gatsby&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;How to implement Drupal + Gatsby&lt;/h2&gt;
+&lt;p&gt;Hooking up Gatsby to a new or existing Drupal site takes just a few steps:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add the &lt;a href=&quot;https://www.gatsbyjs.org/packages/gatsby-source-drupal/&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby-source-drupal&lt;/code&gt; plugin&lt;/a&gt; to your Gatsby site&lt;/li&gt;
+&lt;li&gt;Configure the plugin with your Drupal credentials &amp;#x26; hosted URL&lt;/li&gt;
+&lt;li&gt;Access all your Drupal data using GraphQL queries&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;why-use-gatsby-and-drupal-together&quot;&gt;&lt;a href=&quot;#why-use-gatsby-and-drupal-together&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Why use Gatsby and Drupal together?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.acquia.com/drupal/decoupled-drupal&quot;&gt;“Decoupled Drupal”&lt;/a&gt; has become an increasingly popular approach to building enterprise-grade websites, and has the &lt;a href=&quot;https://dri.es/how-to-decouple-drupal-in-2018&quot;&gt;full-throated support&lt;/a&gt; of Drupal community leaders.
+Using Gatsby in a decoupled Drupal setup allows your team to access the powerful content modeling and access workflow capabilities of Drupal 8, as well as the powerful UI creation &amp;#x26; performance toolset of Gatsby.&lt;/p&gt;
+&lt;h2 id=&quot;when-is-drupal-a-great-choice&quot;&gt;&lt;a href=&quot;#when-is-drupal-a-great-choice&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;When is Drupal a great choice?&lt;/h2&gt;
+&lt;p&gt;Many development teams, content teams, and client decision-makers are familiar with Drupal. Here are some scenarios in which Drupal is a great choice (and a few scenarios for which it’s not-so-great):&lt;/p&gt;
+&lt;h3 id=&quot;drupal-is-great-for&quot;&gt;&lt;a href=&quot;#drupal-is-great-for&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Drupal is great for:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Complex page layouts or content modelling with multiple sections per page&lt;/li&gt;
+&lt;li&gt;Teams with multi-stage content creation and review processes&lt;/li&gt;
+&lt;li&gt;Development teams who value using popular, open-source technologies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;drupal-is-not-so-great-for&quot;&gt;&lt;a href=&quot;#drupal-is-not-so-great-for&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Drupal is not-so-great for:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Content teams who require a slick content editing experience&lt;/li&gt;
+&lt;li&gt;Teams requiring the use of Drupal UI Kit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;interested-in-learning-more&quot;&gt;&lt;a href=&quot;#interested-in-learning-more&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Interested in learning more?&lt;/h2&gt;
+&lt;p&gt;Using Gatsby together with Drupal offers a powerful, full-featured, open-source, and free alternative for expensive enterprise content management systems. To learn more:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Read &lt;a href=&quot;https://www.mediacurrent.com/what-is-gatsby.js/&quot;&gt;a Drupal agency’s introduction to Gatsby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Watch &lt;a href=&quot;https://2017.badcamp.net/session/coding-development/beginner/headless-drupal-building-blazing-fast-websites-reactgatsbyjs&quot;&gt;Kyle Mathews’ presentation on Gatsby + Drupal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Get started with Robert Ngo’s &lt;a href=&quot;https://evolvingweb.ca/blog/decoupling-drupal-gatsby&quot;&gt;Decoupling Drupal with Gatsby tutorial&lt;/a&gt; and watch his &lt;a href=&quot;https://www.youtube.com/watch?v=s5kUJRGDz6I&quot;&gt;Evolving Web 2018 Drupal conference presentation&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.com/support/#contact-us&quot;&gt;Get expert help&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Using Decoupled Drupal with Gatsby]]></title><description><![CDATA[Why use Drupal + Gatsby together? Kyle Mathews is presenting on “Gatsby + Drupal” at  Decoupled Drupal Days NYC  this Saturday; for those…]]></description><link>https://ethluz.github.io/blog/2018-08-13-using-decoupled-drupal-with-gatsby/</link><guid isPermaLink="false">https://ethluz.github.io/blog/2018-08-13-using-decoupled-drupal-with-gatsby/</guid><content:encoded>&lt;h2 id=&quot;why-use-drupal--gatsby-together&quot;&gt;&lt;a href=&quot;#why-use-drupal--gatsby-together&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Why use Drupal + Gatsby together?&lt;/h2&gt;
+&lt;p&gt;Kyle Mathews is presenting on “Gatsby + Drupal” at &lt;a href=&quot;https://2018.decoupleddays.com/session/decoupled-drupal-gatsby&quot;&gt;Decoupled Drupal Days NYC&lt;/a&gt; this Saturday; for those who can’t make it to his presentation, we wanted to give you a sneak peak of what it will be about.&lt;/p&gt;
+&lt;p&gt;(Hint: it’s about how nicely Gatsby and Drupal work together!)&lt;/p&gt;
+&lt;p&gt;Take a look at the source code of &lt;a href=&quot;https://github.com/gatsbyjs/gatsby/tree/master/examples/using-drupal&quot;&gt;the official Gatsby + Drupal example site&lt;/a&gt; or &lt;a href=&quot;https://using-drupal.gatsbyjs.org/&quot;&gt;see it live&lt;/a&gt;. Gatsby co-founder, Kyle Mathews, has a &lt;a href=&quot;https://www.gatsbyjs.org/blog/2018-05-24-launching-new-gatsby-company/#drupal-and-the-lamp-stack&quot;&gt;long history with Drupal&lt;/a&gt; and built this example site in Gatsby’s early days:&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/umami-site-9ab2351d646dbd04e4724c94d609480f-91ed9.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 786px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 65.4%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAACyElEQVQ4y5WT60tUYRDG96/oi0T0IbpiRVhkQaVdSBQrVwpDw+iqZlQUQUYi9SHywpYWliSlCEqiomZm5p3SQrNcNTetzMu67np213LXPefsr/ccSyoI6oXhHeadeeY588wxuJw2phzjTLvtuklTViYnRtDi3hknnm/SP5mGMfN1CoPT6aSuro6BgQEsFgtu9zT/e/x+/7xvUFWVnh4zLS0tNDxvwGaz6Q9aHD3RrxeoijxviiqLmCpyFPwiz+uZwSlJeo3hbx1/tf85OkNF66yqc6zmEH9L8npnaa8ooLf6Hv2NpbR2FDFuH2FwsI/PnbWMdpUx+L4JWVHnAK1WK0NDQ0xO2oQYEpLkELcTh8OOx+Ph67Sb+7GbqUlYR0nSBjJMe8XcH5Kwfwe3E41UZMVz91YsDvsEBm0Wbte0UMmFxsungCKcWdmPzyfrDN2iSdnVOOrSD1GaEkn5tSgq87KJXLKI3H0beXH9MM2tzYKIE4NPILiE7MP2fnrftjM62E7343RePS3mWdVj2ps6dOUfHdtN/YlQimKCqD6/her8O6RGbCVz1xqqEkKwNFUKMuKTXVMSxaW5pGYK6ndOMvQii8yjK8mMCeTmKSO5pgze9VnobGjjZWUtbxpbaaiup7vbzIcBM+a2ej71dPHR3MWM24VhfGyMiPAwkuMiyEkKpq0gmfxLRk6Hr+bM8oWkGjdR/OQhstBrUjD1iXGo+mhUvnm8eMSDFlP0BRMq+8SsTNkpRO0PITRoMQ8uhFCRFst5YyCxB1cQtTOA7PzLujhfhod14bzC19bJNjHB2OiIuK0osqzHDD6BWlhwg+iItQQuXYZx+wJKTAmYMo6wwxhA8rGVFOZd0IVSFAVZFGq3th0agOb/3FW/KgDdkpWamnIuXonmePx2zh5Yz7nEMPZEBnMgehU5advo633Nj5L53Zzf2T9+hu+y5nkERRWkDQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px #ffffff;&quot;
+        alt=&quot;Screenshot of decoupled Drupal site build with Gatsby&quot;
+        title=&quot;&quot;
+        src=&quot;/static/umami-site-9ab2351d646dbd04e4724c94d609480f-c4266.png&quot;
+        srcset=&quot;/static/umami-site-9ab2351d646dbd04e4724c94d609480f-4fd5b.png 197w,
+/static/umami-site-9ab2351d646dbd04e4724c94d609480f-4fc86.png 393w,
+/static/umami-site-9ab2351d646dbd04e4724c94d609480f-c4266.png 786w,
+/static/umami-site-9ab2351d646dbd04e4724c94d609480f-91ed9.png 1000w&quot;
+        sizes=&quot;(max-width: 786px) 100vw, 786px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://using-drupal.gatsbyjs.org/&quot;&gt;A delicious Gatsby + Drupal site&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Using Drupal as a headless CMS with Gatsby is a great way to get an enterprise-quality CMS for free, paired with a great modern development experience and all the benefits of the JAMstack, like performance, scalability, and security.&lt;/p&gt;
+&lt;p&gt;It only takes a few steps to use Gatsby with Drupal as a headless CMS (also known as decoupled Drupal).&lt;/p&gt;
+&lt;h2 id=&quot;how-to-implement-drupal--gatsby&quot;&gt;&lt;a href=&quot;#how-to-implement-drupal--gatsby&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;How to implement Drupal + Gatsby&lt;/h2&gt;
+&lt;p&gt;Hooking up Gatsby to a new or existing Drupal site takes just a few steps:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add the &lt;a href=&quot;https://www.gatsbyjs.org/packages/gatsby-source-drupal/&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby-source-drupal&lt;/code&gt; plugin&lt;/a&gt; to your Gatsby site&lt;/li&gt;
+&lt;li&gt;Configure the plugin with your Drupal credentials &amp;#x26; hosted URL&lt;/li&gt;
+&lt;li&gt;Access all your Drupal data using GraphQL queries&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;why-use-gatsby-and-drupal-together&quot;&gt;&lt;a href=&quot;#why-use-gatsby-and-drupal-together&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Why use Gatsby and Drupal together?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.acquia.com/drupal/decoupled-drupal&quot;&gt;“Decoupled Drupal”&lt;/a&gt; has become an increasingly popular approach to building enterprise-grade websites, and has the &lt;a href=&quot;https://dri.es/how-to-decouple-drupal-in-2018&quot;&gt;full-throated support&lt;/a&gt; of Drupal community leaders.
+Using Gatsby in a decoupled Drupal setup allows your team to access the powerful content modeling and access workflow capabilities of Drupal 8, as well as the powerful UI creation &amp;#x26; performance toolset of Gatsby.&lt;/p&gt;
+&lt;h2 id=&quot;when-is-drupal-a-great-choice&quot;&gt;&lt;a href=&quot;#when-is-drupal-a-great-choice&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;When is Drupal a great choice?&lt;/h2&gt;
+&lt;p&gt;Many development teams, content teams, and client decision-makers are familiar with Drupal. Here are some scenarios in which Drupal is a great choice (and a few scenarios for which it’s not-so-great):&lt;/p&gt;
+&lt;h3 id=&quot;drupal-is-great-for&quot;&gt;&lt;a href=&quot;#drupal-is-great-for&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Drupal is great for:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Complex page layouts or content modelling with multiple sections per page&lt;/li&gt;
+&lt;li&gt;Teams with multi-stage content creation and review processes&lt;/li&gt;
+&lt;li&gt;Development teams who value using popular, open-source technologies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;drupal-is-not-so-great-for&quot;&gt;&lt;a href=&quot;#drupal-is-not-so-great-for&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Drupal is not-so-great for:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Content teams who require a slick content editing experience&lt;/li&gt;
+&lt;li&gt;Teams requiring the use of Drupal UI Kit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;interested-in-learning-more&quot;&gt;&lt;a href=&quot;#interested-in-learning-more&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Interested in learning more?&lt;/h2&gt;
+&lt;p&gt;Using Gatsby together with Drupal offers a powerful, full-featured, open-source, and free alternative for expensive enterprise content management systems. To learn more:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Read &lt;a href=&quot;https://www.mediacurrent.com/what-is-gatsby.js/&quot;&gt;a Drupal agency’s introduction to Gatsby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Watch &lt;a href=&quot;https://2017.badcamp.net/session/coding-development/beginner/headless-drupal-building-blazing-fast-websites-reactgatsbyjs&quot;&gt;Kyle Mathews’ presentation on Gatsby + Drupal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Get started with Robert Ngo’s &lt;a href=&quot;https://evolvingweb.ca/blog/decoupling-drupal-gatsby&quot;&gt;Decoupling Drupal with Gatsby tutorial&lt;/a&gt; and watch his &lt;a href=&quot;https://www.youtube.com/watch?v=s5kUJRGDz6I&quot;&gt;Evolving Web 2018 Drupal conference presentation&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.com/support/#contact-us&quot;&gt;Get expert help&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[My experience doing pair programming with the Gatsby team and why you should do it]]></title><description><![CDATA[I love pair programming. This is one of the practices we do in our trainings at  ReactJS Academy , and we do it regularly at  LeanJS . A…]]></description><link>https://ethluz.github.io/blog/2018-08-11-gatsby-pair-programming/</link><guid isPermaLink="false">https://ethluz.github.io/blog/2018-08-11-gatsby-pair-programming/</guid><content:encoded>&lt;p&gt;I love pair programming. This is one of the practices we do in our trainings at &lt;a href=&quot;https://reactjs.academy?utm_source=social&amp;#x26;utm_medium=medium&amp;#x26;utm_campaign=horacio-gatsby-post&amp;#x26;utm_term=reactjs-academy&quot;&gt;ReactJS Academy&lt;/a&gt;, and we do it regularly at &lt;a href=&quot;https://leanjs.com?utm_source=social&amp;#x26;utm_medium=medium&amp;#x26;utm_campaign=horacio-gatsby-post&amp;#x26;utm_term=leanjs&quot;&gt;LeanJS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A couple of weeks ago, we were planning to rebuild our websites using Gatsby, and then I saw this:&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;This was a ton of fun! Anyone else want to pair up? &lt;a href=&quot;https://twitter.com/kylemathews?ref_src=twsrc%5Etfw&quot;&gt;@kylemathews&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/kurtiskemple?ref_src=twsrc%5Etfw&quot;&gt;@kurtiskemple&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mdashallanson?ref_src=twsrc%5Etfw&quot;&gt;@mdashallanson&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mipiechowiak?ref_src=twsrc%5Etfw&quot;&gt;@mipiechowiak&lt;/a&gt;, and I are all opening up a few one-hour slots for screen sharing/pair programming on your &lt;a href=&quot;https://twitter.com/gatsbyjs?ref_src=twsrc%5Etfw&quot;&gt;@gatsbyjs&lt;/a&gt; projects — DM to grab your slot! 💪💜 &lt;a href=&quot;https://t.co/O3lKUQ79c4&quot;&gt;https://t.co/O3lKUQ79c4&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jason Lengstorf (@jlengstorf) &lt;a href=&quot;https://twitter.com/jlengstorf/status/1016721019376025600?ref_src=twsrc%5Etfw&quot;&gt;July 10, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;I didn’t have to think about that twice—I booked it! It was funny because the week before this tweet I was talking to &lt;a href=&quot;https://twitter.com/alex_lobera&quot;&gt;Alex&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/ric9176&quot;&gt;Richard&lt;/a&gt; about a similar idea I had with ReactJS Academy. We want to do something similar to pair programming with developers who want to learn React (if you are interested please send me a DM!).&lt;/p&gt;
+&lt;p&gt;My experience with Gatsby prior to this pair programming session was low, and my concern as a designer was how to create animations and page transitions with it. I thought maybe it was different from what I did in the past, and that’s why I wanted to ask. It turns out that after we talked a little bit about it, and Jason not only answered my questions, but also helped me make my first contribution to Gatsby! 🎉&lt;/p&gt;
+&lt;p&gt;Here are my thoughts and experience with this. I hope this help you to do it and start contributing to projects as amazing as this one!&lt;/p&gt;
+&lt;h3 id=&quot;how-did-you-feel-before-during-and-after-pair-programming&quot;&gt;&lt;a href=&quot;#how-did-you-feel-before-during-and-after-pair-programming&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;How did you feel before, during, and after pair programming?&lt;/h3&gt;
+&lt;p&gt;Before, I was a little worried, to be honest. :) Now, I feel more confident contributing to the project. Actually, I just made my second contribution to it today!&lt;/p&gt;
+&lt;p&gt;Also, usually when I’ve done pair programming, one person “drives” (types and programs) and the other one helps and makes sure there’s no typos or errors. In this pair programming, we both drove during the whole session and we were both really involved in it. I enjoyed this and enjoyed how we improvised throughout the process.&lt;/p&gt;
+&lt;h3 id=&quot;what-was-the-most-surprising-thing-about-pair-programming&quot;&gt;&lt;a href=&quot;#what-was-the-most-surprising-thing-about-pair-programming&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What was the most surprising thing about pair programming?&lt;/h3&gt;
+&lt;p&gt;The most surprising thing to me was Jason’s willingness to spend time with a complete stranger to help me with my questions. I’m grateful that he spent this time with me. Thanks man!&lt;/p&gt;
+&lt;p&gt;Jason patiently explained the parts I didn’t understand about Gatsby and he also walked me through the project perfectly.&lt;/p&gt;
+&lt;h3 id=&quot;on-a-scale-of-110-how-likely-are-you-to-recommend-it-to-a-friend-110-scale&quot;&gt;&lt;a href=&quot;#on-a-scale-of-110-how-likely-are-you-to-recommend-it-to-a-friend-110-scale&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;On a scale of 1–10, how likely are you to recommend it to a friend? (1–10 scale)&lt;/h3&gt;
+&lt;p&gt;10! No doubt. And higher than 10 if you have never done pair programming. Just take a simple task and go! It’s not about the code you will write, but the experience of developing with an expert. It’s just amazing. :)&lt;/p&gt;
+&lt;p&gt;Again, thanks Jason Lengstorf for the time! and thanks Gatsby for this amazing project!! 🎉&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you want to sign up for your session, check out the &lt;a href=&quot;/docs/pair-programming/&quot;&gt;open community pair programming sessions docs and signup instructions&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Free Swag for Gatsby Contributors]]></title><description><![CDATA[Today, we’re  so excited  to announce the launch of the  Gatsby Swag Store ! If you’ve been following along  on Twitter , you may have seen…]]></description><link>https://ethluz.github.io/blog/2018-08-09-swag-store/</link><guid isPermaLink="false">https://ethluz.github.io/blog/2018-08-09-swag-store/</guid><content:encoded>&lt;p&gt;Today, we’re &lt;em&gt;so excited&lt;/em&gt; to announce the launch of the &lt;a href=&quot;https://store.gatsbyjs.org/&quot;&gt;Gatsby Swag Store&lt;/a&gt;! If you’ve been following along &lt;a href=&quot;https://twitter.com/gatsbyjs&quot;&gt;on Twitter&lt;/a&gt;, you may have seen the news a little while back.&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;🎉The Gatsby Store is officially open! 🎉&lt;br&gt;&lt;br&gt;We’ve got snuggly socks, soft t-shirts, and enough stickers to wallpaper your house. 🧦👕🏡&lt;br&gt;&lt;br&gt;Get ’em at &lt;a href=&quot;https://t.co/e7xq9qTaP7&quot;&gt;https://t.co/e7xq9qTaP7&lt;/a&gt;&lt;br&gt;&lt;br&gt;P.S. Do you &lt;a href=&quot;https://twitter.com/hashtag/buildwithgatsby?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#buildwithgatsby&lt;/a&gt;? All contributors get FREE SWAG. Sign in to claim your discount code!&lt;/p&gt;&amp;mdash; Marisa Morby (@marisamorby) &lt;a href=&quot;https://twitter.com/marisamorby/status/1019256499799912449?ref_src=twsrc%5Etfw&quot;&gt;July 17, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;We’ve spent the last couple weeks working the kinks out, and we couldn’t be happier with the response we’ve seen.&lt;/p&gt;
+&lt;figure&gt;
+  
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 786px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 36.85483870967742%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIE/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB2WEA/8QAGhAAAgIDAAAAAAAAAAAAAAAAAQQAEgIRFP/aAAgBAQABBQLMMUqxB1a//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAgIDAAAAAAAAAAAAAAAAAAERISIxkf/aAAgBAQAGPwJxuRZJUWl0/8QAGRABAAMBAQAAAAAAAAAAAAAAAQARMSFB/9oACAEBAAE/IQ7cu4S0oDQ9Vh9BP//aAAwDAQACAAMAAAAQgC//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAWEQEBAQAAAAAAAAAAAAAAAAAAEWH/2gAIAQIBAT8QXH//xAAaEAEAAwEBAQAAAAAAAAAAAAABABExIXGR/9oACAEBAAE/EBVlVqQ7XuwQBMD0K5CEcdad+T//2Q==&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px #ffffff;&quot; alt=&quot;Gatsby swag posts on Twitter.&quot; title=&quot;&quot; src=&quot;/static/gatsby-swag-twitter-63ed07e12a18bffed66a2ab713880afe-00eda.jpg&quot; srcset=&quot;/static/gatsby-swag-twitter-63ed07e12a18bffed66a2ab713880afe-c1503.jpg 197w,
+/static/gatsby-swag-twitter-63ed07e12a18bffed66a2ab713880afe-a941d.jpg 393w,
+/static/gatsby-swag-twitter-63ed07e12a18bffed66a2ab713880afe-00eda.jpg 786w,
+/static/gatsby-swag-twitter-63ed07e12a18bffed66a2ab713880afe-8e8ca.jpg 1179w,
+/static/gatsby-swag-twitter-63ed07e12a18bffed66a2ab713880afe-7149b.jpg 1240w&quot; sizes=&quot;(max-width: 786px) 100vw, 786px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;figcaption&gt;
+    Tweets from &lt;a href=&quot;https://twitter.com/DeaNHtiD99/status/1023204484183416832&quot;&gt;Dean&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ARebelBelle/status/1020044426712735744&quot;&gt;Elle&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/chaseadamsio/status/1021896138503245824&quot;&gt;Chase&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/kato_katherine/status/1021967765400211456&quot;&gt;Katherine&lt;/a&gt; showing off their new Gatsby swag.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id=&quot;free-swag-for-all-contributors-&quot;&gt;&lt;a href=&quot;#free-swag-for-all-contributors-&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Free swag for all contributors 💪💜&lt;/h2&gt;
+&lt;p&gt;We’re extremely excited about the launch of the store because it means contributors are now able to get stickers, socks, and/or t-shirts for free — a little token of our appreciation for putting the time in to make the open source community even better. You’re all amazing, and we 💜 you for it.&lt;/p&gt;
+&lt;p&gt;Going forward, all contributors to the &lt;a href=&quot;https://github.com/gatsbyjs&quot;&gt;Gatsby organization on GitHub&lt;/a&gt; will automatically qualify for free Gatsby swag. &lt;strong&gt;And when we say &lt;em&gt;all&lt;/em&gt; contributors, we mean it: even if you contributed to Gatsby before the store was launched, you’re qualified for free swag!&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Oh hello &lt;a href=&quot;https://twitter.com/gatsbyjs?ref_src=twsrc%5Etfw&quot;&gt;@gatsbyjs&lt;/a&gt; swag 😍 Really cool getting these for contributing 🎉&lt;a href=&quot;https://t.co/2HjDgBJT3B&quot;&gt;https://t.co/2HjDgBJT3B&lt;/a&gt; &lt;a href=&quot;https://t.co/YGnuD4CPNi&quot;&gt;pic.twitter.com/YGnuD4CPNi&lt;/a&gt;&lt;/p&gt;&amp;mdash; LekoArts (@lekoarts_de) &lt;a href=&quot;https://twitter.com/lekoarts_de/status/1023823370620727296?ref_src=twsrc%5Etfw&quot;&gt;July 30, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;For more details and instructions on how to claim your free swag, see &lt;a href=&quot;https://next.gatsbyjs.org/docs/contributor-swag/&quot;&gt;the “swag for contributors” section of the docs&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here’s the short version:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Head to the &lt;a href=&quot;https://store.gatsbyjs.org/&quot;&gt;swag store&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Log in with your GitHub account at the top right of the page&lt;/li&gt;
+&lt;li&gt;Request a discount code with your name and email&lt;/li&gt;
+&lt;li&gt;Use that discount code at checkout to get one free item from the swag store!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; The way this works is by checking that your GitHub account has at least one merged PR in the &lt;a href=&quot;https://github.com/gatsbyjs&quot;&gt;Gatsby organization&lt;/a&gt;. However, &lt;strong&gt;contributing code is &lt;em&gt;not&lt;/em&gt; the only way to contribute to open source!&lt;/strong&gt; Check out [the “how to contribute” docs][contribute] for more examples of contributions that qualify for free swag. Email us at &lt;a href=&quot;mailto:team@gatsbyjs.com&quot;&gt;team@gatsbyjs.com&lt;/a&gt; if you’re a non-code contributor and want your free swag.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;shipping-is-free-on-all-orders-globally&quot;&gt;&lt;a href=&quot;#shipping-is-free-on-all-orders-globally&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Shipping is free on all orders globally&lt;/h2&gt;
+&lt;p&gt;We know how much it sucks when things aren’t available in your country, so — for now, at least — Gatsby Inc. is footing the bill for shipping, no matter where you are in the world. It is our sincere hope that we can keep this up, but we can’t guarantee it’s sustainable. (&lt;em&gt;Hint: this means you should probably order sooner rather than later, just in case.&lt;/em&gt;)&lt;/p&gt;
+&lt;h2 id=&quot;post-your-swag-photos-on-twitter&quot;&gt;&lt;a href=&quot;#post-your-swag-photos-on-twitter&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Post your swag photos on Twitter!&lt;/h2&gt;
+&lt;p&gt;We love seeing how great the community looks in purple, so please post your Gatsby swag photos with the hashtag &lt;a href=&quot;https://twitter.com/search?q=%23buildwithgatsby&quot;&gt;#buildwithgatsby&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;What a Saturday afternoon 😁&lt;br&gt;&lt;br&gt;Received them &lt;a href=&quot;https://twitter.com/hashtag/Gatsbyjs?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Gatsbyjs&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/swag?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#swag&lt;/a&gt;😍🤩&lt;br&gt;&lt;br&gt;Thank you &lt;a href=&quot;https://twitter.com/jlengstorf?ref_src=twsrc%5Etfw&quot;&gt;@jlengstorf&lt;/a&gt; and the team behind it for making it happen. &lt;a href=&quot;https://twitter.com/hashtag/buildwithgatsby?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#buildwithgatsby&lt;/a&gt; &lt;a href=&quot;https://t.co/B7jHQi6e8Y&quot;&gt;pic.twitter.com/B7jHQi6e8Y&lt;/a&gt;&lt;/p&gt;&amp;mdash; Aman Mittal 🖖⚛️☕ (@amanhimself) &lt;a href=&quot;https://twitter.com/amanhimself/status/1023124667446509570?ref_src=twsrc%5Etfw&quot;&gt;July 28, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;h2 id=&quot;how-the-store-works&quot;&gt;&lt;a href=&quot;#how-the-store-works&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;How the store works&lt;/h2&gt;
+&lt;p&gt;All of the source code for the swag store &lt;a href=&quot;https://github.com/gatsbyjs/store.gatsbyjs.org&quot;&gt;has been open sourced&lt;/a&gt;. The front-end is a &lt;a href=&quot;https://www.gatsbyjs.org/blog/2018-06-16-announcing-gatsby-v2-beta-launch/&quot;&gt;Gatsby v2&lt;/a&gt; site (naturally) using &lt;a href=&quot;https://www.shopify.com/&quot;&gt;Shopify&lt;/a&gt; (and their &lt;a href=&quot;https://shopify.github.io/js-buy-sdk/&quot;&gt;JS Buy SDK&lt;/a&gt;) to display products and manage carts, &lt;a href=&quot;https://auth0.com/&quot;&gt;Auth0&lt;/a&gt; to handle authentication, and a &lt;a href=&quot;https://github.com/gatsbyjs/api.gatsbyjs.org&quot;&gt;custom Express API&lt;/a&gt; to manage discount code requests.&lt;/p&gt;
+&lt;p&gt;We also use &lt;a href=&quot;https://github.com/danger/peril&quot;&gt;Peril&lt;/a&gt; to &lt;a href=&quot;https://github.com/gatsbyjs/peril-gatsbyjs/blob/master/org/invite-collaborator.ts&quot;&gt;automatically invite contributors&lt;/a&gt; to the Gatsby organization on GitHub and post details about claiming swag. Here’s an example (and some kind words from Gatsby contributor &lt;a href=&quot;https://twitter.com/beardedpayton&quot;&gt;Payton Burdette&lt;/a&gt;) showing what the automated response looks like:&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/gatsbyjs?ref_src=twsrc%5Etfw&quot;&gt;@gatsbyjs&lt;/a&gt; is killing it in open source. This is how you treat contributors. Take notes 📝😊 &lt;a href=&quot;https://t.co/9ta3IvfiZF&quot;&gt;pic.twitter.com/9ta3IvfiZF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Payton Burdette (@beardedpayton) &lt;a href=&quot;https://twitter.com/beardedpayton/status/1020339698332512256?ref_src=twsrc%5Etfw&quot;&gt;July 20, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;h2 id=&quot;whats-next&quot;&gt;&lt;a href=&quot;#whats-next&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What’s next?&lt;/h2&gt;
+&lt;p&gt;We have a lot of ideas for the Gatsby store — from &lt;a href=&quot;https://github.com/gatsbyjs/store.gatsbyjs.org/issues?q=is%3Aissue+is%3Aopen+label%3A%22Swag+Ideas%22+sort%3Aupdated-desc&quot;&gt;new swag ideas&lt;/a&gt; to adding more rewards for contributors who go above and beyond — but we’d love to hear more from you! Please &lt;a href=&quot;https://twitter.com/gatsbyjs&quot;&gt;tweet at us&lt;/a&gt; or open issues on &lt;a href=&quot;https://github.com/gatsbyjs/store.gatsbyjs.org&quot;&gt;the store repo&lt;/a&gt; with ideas.&lt;/p&gt;
+&lt;p&gt;For now, that’s it! We’ll leave you with our favorite genre of tweet: “dogs wearing Gatsby swag”.&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Thanks &lt;a href=&quot;https://twitter.com/gatsbyjs?ref_src=twsrc%5Etfw&quot;&gt;@gatsbyjs&lt;/a&gt; for the t-shirt! If there are any developers out there that haven’t tried out Gatsby yet here is my dog Birch silently judging you. 😉 Trust me, it’s awesome. &lt;a href=&quot;https://t.co/THDSmhKdBb&quot;&gt;pic.twitter.com/THDSmhKdBb&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ryan Wiemer (@ryanwiemer) &lt;a href=&quot;https://twitter.com/ryanwiemer/status/1022267081998266368?ref_src=twsrc%5Etfw&quot;&gt;July 25, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;Thanks for being part of the open source community! 💪💜&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Announcing Gatsby 1.0.0 🎉🎉🎉]]></title><description><![CDATA[Gatsby is your friendly, blazing fast static site generator for React. And after nearly a year of research, prototyping, and testing, Gatsby v1 is ready for action.]]></description><link>https://ethluz.github.io/blog/gatsby-v1/</link><guid isPermaLink="false">https://ethluz.github.io/blog/gatsby-v1/</guid><content:encoded>&lt;p&gt;Gatsby is your friendly, blazing fast static site generator for React. And after
+nearly a year of research, prototyping, and testing, Gatsby v1 is ready for
+action.&lt;/p&gt;
+&lt;p&gt;Static site generators offer many benefits over traditional dynamic website
+frameworks — &lt;em&gt;better performance, higher security, lower cost of scaling, and a
+better developer experience.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In v1, Gatsby blazes new ground for static site generators by enabling rich
+integrations with CMSs like Contentful, Wordpress, and Drupal, and a suite of
+features, on by default, that make your sites startlingly fast — route-based
+code splitting, service workers, offline support, and more.&lt;/p&gt;
+&lt;p&gt;Gatsby means no more compromising between developers, designers, and authors.&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;😲Gatsby now integrates multiple data sources, splits code, supports offline, lots new plugins... amazing!!  &lt;a href=&quot;https://twitter.com/hashtag/reactjs?src=hash&quot;&gt;#reactjs&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/staticsitegenerator?src=hash&quot;&gt;#staticsitegenerator&lt;/a&gt; &lt;a href=&quot;https://t.co/i80wYgnwhb&quot;&gt;https://t.co/i80wYgnwhb&lt;/a&gt;&lt;/p&gt;&amp;mdash; Christian Mund (@krist) &lt;a href=&quot;https://twitter.com/krist/status/882953204119556097&quot;&gt;July 6, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I made this website with &lt;a href=&quot;https://twitter.com/gatsbyjs&quot;&gt;@gatsbyjs&lt;/a&gt; and I&amp;#39;m totally in love with it &lt;a href=&quot;https://t.co/TZA064O3s0&quot;&gt;https://t.co/TZA064O3s0&lt;/a&gt; React SSGs are the future&lt;/p&gt;&amp;mdash; Charlotte Dann (@charlotte_dann) &lt;a href=&quot;https://twitter.com/charlotte_dann/status/882596284116480000&quot;&gt;July 5, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Super excited about the next version of &lt;a href=&quot;https://twitter.com/gatsbyjs&quot;&gt;@gatsbyjs&lt;/a&gt;. The first GraphQL-powered static site generator as far as I know! &lt;a href=&quot;https://t.co/poh4S9RSJH&quot;&gt;https://t.co/poh4S9RSJH&lt;/a&gt;&lt;/p&gt;&amp;mdash; Sacha Greif (@SachaGreif) &lt;a href=&quot;https://twitter.com/SachaGreif/status/841058065856192512&quot;&gt;March 12, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;h2 id=&quot;gatsby-is-growing-like-crazy&quot;&gt;&lt;a href=&quot;#gatsby-is-growing-like-crazy&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gatsby is growing like crazy&lt;/h2&gt;
+&lt;p&gt;In the last year, Gatsby community and usage have exploded. Milestones reached:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;196 code contributors on GitHub (with many more helping in
+&lt;a href=&quot;https://discord.gg/0ZcbPKXt5bVoxkfV&quot;&gt;our chat room on Discord&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;10,000 stars on GitHub&lt;/li&gt;
+&lt;li&gt;1000 followers on Twitter&lt;/li&gt;
+&lt;li&gt;500,000 NPM downloads (100,000 in the last month!!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 786px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 52.69709543568465%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABGElEQVQoz4VSXXOEIBDz//9FR8cHH+xdLX4AHiKmhB5XsLTdmVXQJWyyqfCM8zyz9zRNaJomZF3X6LoObdui73sMw5DVphiV1hrW2rCJyTDGBNBlWUKu64p5niGlhFLqC4DpXHau4iEWpIDXm0vBGi1mOHu89qFD3rht2w9ApktuD+m+12qcsG+PDCwAkg5plwBLXZOiHAWsl+QK9m+HJTAVwPYiWACk0KmGL5pP0WMcXqsIdh1GBsjpRcppHP4gNbIPAyM11LuAO46iXbKh8EHKtMm+7xC3O6a3O9YPgVV4B0wzFr8mC9qLdbGW3+JZ/gu2uU6Vmqad0BYPvUF6JlfPRQ+nXVd/eY0+o26kK28jjNK/Uo7fPwHMUGEM7ERu6QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px #ffffff;&quot;
+        alt=&quot;Gatsby npm downloads year over year&quot;
+        title=&quot;&quot;
+        src=&quot;/static/gatsby-npm-downloads-5b6238a9feeefbc5913acf00b4bf2d05-c4266.png&quot;
+        srcset=&quot;/static/gatsby-npm-downloads-5b6238a9feeefbc5913acf00b4bf2d05-4fd5b.png 197w,
+/static/gatsby-npm-downloads-5b6238a9feeefbc5913acf00b4bf2d05-4fc86.png 393w,
+/static/gatsby-npm-downloads-5b6238a9feeefbc5913acf00b4bf2d05-c4266.png 786w,
+/static/gatsby-npm-downloads-5b6238a9feeefbc5913acf00b4bf2d05-22348.png 1179w,
+/static/gatsby-npm-downloads-5b6238a9feeefbc5913acf00b4bf2d05-61a42.png 1446w&quot;
+        sizes=&quot;(max-width: 786px) 100vw, 786px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;
+&lt;h2 id=&quot;cool-sites-built-with-gatsby&quot;&gt;&lt;a href=&quot;#cool-sites-built-with-gatsby&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Cool sites built with Gatsby&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Segment &lt;a href=&quot;https://segment.com/blog/&quot;&gt;relaunched their blog on Gatsby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The life insurance startup Fabric built their
+&lt;a href=&quot;https://meetfabric.com/&quot;&gt;marketing site &lt;em&gt;and&lt;/em&gt; web app using Gatsby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;JavaScript consultancy
+&lt;a href=&quot;https://formidable.com/&quot;&gt;Formidable built their website on Gatsby&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 786px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 28.125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAABkklEQVQY03VPSytEYRg+LFxmBnNMM0dTysolyTWSxsraxg9QSlmwkkumkKWVjaxmYSF3pZgZgwwZyiVKMxKJXGLkMmbMOd93vvd7faMsiKeenvdSz/u8kkrIFqXMqxHq04i+ohK6GSfEpamsnwMPIKJH0CfohUuPH2NnruGR0aG29o5Ad59zzTkwuN7Z07vW1dvnd/YPLEj4B6jOroHB0lfDAPHgCPH59Xt9XVBS5pXSjCgrdsyy5mBpVQ3m5RdhcropJsXiGj69RNRI9IO+vcc0Blx4wAmj+owmvKKn5+SiqoHdTE3Q8Uc/PuBbsLyydj7ZkIFWe66WabHR5pZWUllXz6VUw91XQsb5j4Q6Y1cAMJuotZd3EpnzsfDZue65P8Y4smBZRbU7JVNGk0VBY7YVzYmksgWzLdaopDMIMQb7goeCByJdSLw8A8AXE4bhMODqhoqhIP2+d+uod4zIsnyoKMqOYrPtmszyTmNR/l5TcaFb+o2xaV9SQhF5D+d8W+gyEOpFDm6OfFXMJoWpWfoHn8HLQtrLZS6pAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px #ffffff;&quot;
+        alt=&quot;screenshots of above sites&quot;
+        title=&quot;&quot;
+        src=&quot;/static/site-screenshots-69ceb3166553d88ab8ddbf5d46f33eb5-c4266.png&quot;
+        srcset=&quot;/static/site-screenshots-69ceb3166553d88ab8ddbf5d46f33eb5-4fd5b.png 197w,
+/static/site-screenshots-69ceb3166553d88ab8ddbf5d46f33eb5-4fc86.png 393w,
+/static/site-screenshots-69ceb3166553d88ab8ddbf5d46f33eb5-c4266.png 786w,
+/static/site-screenshots-69ceb3166553d88ab8ddbf5d46f33eb5-22348.png 1179w,
+/static/site-screenshots-69ceb3166553d88ab8ddbf5d46f33eb5-f35d4.png 1572w,
+/static/site-screenshots-69ceb3166553d88ab8ddbf5d46f33eb5-d276f.png 1600w&quot;
+        sizes=&quot;(max-width: 786px) 100vw, 786px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;
+&lt;p&gt;And you’re on of course a Gatsby website 😛&lt;/p&gt;
+&lt;h2 id=&quot;the-three-questions-that-guide-gatsbys-design&quot;&gt;&lt;a href=&quot;#the-three-questions-that-guide-gatsbys-design&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The three questions that guide Gatsby’s design&lt;/h2&gt;
+&lt;p&gt;Gatsby started, like all the best projects do, as a spark of curiosity — “I
+wonder if I could create a tool for building static websites with React?“.&lt;/p&gt;
+&lt;p&gt;I’d been using React to build web apps for 1.5 years at that point and loved how
+easy React’s component model made it to build complex apps and wanted that same
+model for building websites.&lt;/p&gt;
+&lt;p&gt;In a week of intense coding, I prototyped the first version of Gatsby
+(&lt;a href=&quot;https://www.youtube.com/watch?v=RFkNRKL6ZoE&quot;&gt;see my talk at React conf to hear more of the story&lt;/a&gt;)
+and open sourced this 2 years ago.&lt;/p&gt;
+&lt;p&gt;1000s of sites and 10,000 stars later, it seems clear that tools for building
+static React sites are useful.&lt;/p&gt;
+&lt;p&gt;But in many conversations among community members building Gatsby sites, two
+more questions kept coming up.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;How could we &lt;em&gt;query&lt;/em&gt; data from &lt;em&gt;anywhere&lt;/em&gt; and have that data show up in our
+pages &lt;strong&gt;without&lt;/strong&gt; any custom scripting?&lt;/li&gt;
+&lt;li&gt;How should a website framework work for an &lt;em&gt;internet dominated by smartphones
+on unreliable networks&lt;/em&gt; — an internet vastly different and larger than the
+one frameworks were designed for a decade ago?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;plugin-system&quot;&gt;&lt;a href=&quot;#plugin-system&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Plugin system&lt;/h2&gt;
+&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 786px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 43.70117187500001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAED/9oADAMBAAIQAxAAAAHGuRSV7nk//8QAGRAAAgMBAAAAAAAAAAAAAAAAAhIAAxEg/9oACAEBAAEFAguLXjDx/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFxAAAwEAAAAAAAAAAAAAAAAAARIgsf/aAAgBAQAGPwItlf/EABsQAQACAgMAAAAAAAAAAAAAAAEAERAxIVFx/9oACAEBAAE/IUnw6jyVBjdQ05//2gAMAwEAAgADAAAAEMgP/8QAGBEAAgMAAAAAAAAAAAAAAAAAABEBITH/2gAIAQMBAT8QcLCj/8QAGBEAAgMAAAAAAAAAAAAAAAAAABEBITH/2gAIAQIBAT8Qt6OT/8QAHBABAAICAwEAAAAAAAAAAAAAAQARIVEQMUFx/9oACAEBAAE/EHTt5wqGZao3TcvyVp4mvkOp/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px #ffffff;&quot;
+        alt=&quot;container ship leaving port symbolizing of course GATSBY 1.0 HAS SHIPPED!!!&quot;
+        title=&quot;&quot;
+        src=&quot;/static/container-ship-leaving-f8d8f7a5a1191f4ff964fa420db64a83-00eda.jpg&quot;
+        srcset=&quot;/static/container-ship-leaving-f8d8f7a5a1191f4ff964fa420db64a83-c1503.jpg 197w,
+/static/container-ship-leaving-f8d8f7a5a1191f4ff964fa420db64a83-a941d.jpg 393w,
+/static/container-ship-leaving-f8d8f7a5a1191f4ff964fa420db64a83-00eda.jpg 786w,
+/static/container-ship-leaving-f8d8f7a5a1191f4ff964fa420db64a83-8e8ca.jpg 1179w,
+/static/container-ship-leaving-f8d8f7a5a1191f4ff964fa420db64a83-f009a.jpg 1572w,
+/static/container-ship-leaving-f8d8f7a5a1191f4ff964fa420db64a83-0298a.jpg 2048w&quot;
+        sizes=&quot;(max-width: 786px) 100vw, 786px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;em&gt;Gatsby
+v1 heads out to sea delivering components to ports far and wide&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The first building block for answering to these questions was a
+&lt;a href=&quot;/docs/plugins/&quot;&gt;plugin system&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Wordpress &amp;#x26; Jekyll are both great examples of open source communities with
+robust plugins ecosystems.&lt;/p&gt;
+&lt;p&gt;Plugins help accelerate developing websites as you can build on what others have
+done and help collaborate with others on basic building blocks&lt;/p&gt;
+&lt;p&gt;Gatsby’s plugin system lets you hook into
+&lt;a href=&quot;/docs/gatsby-lifecycle-apis/&quot;&gt;Gatsby’s lifecycle APIs&lt;/a&gt; everywhere from events
+during the bootstrap and build processes and in the browser.&lt;/p&gt;
+&lt;p&gt;There are already many
+&lt;a href=&quot;/docs/plugins/#official-plugins&quot;&gt;official Gatsby plugins&lt;/a&gt; built—all distributed
+as individual NPM packages. It is easy to create your own plugins for internal
+projects and for contributing back to Gatsby.&lt;/p&gt;
+&lt;p&gt;Plugins can:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;add support for webpack loaders such as Sass, Less&lt;/li&gt;
+&lt;li&gt;add drop-in support for lightweight React-compatible frameworks
+&lt;a href=&quot;https://preactjs.com/&quot;&gt;Preact&lt;/a&gt; and &lt;a href=&quot;https://infernojs.org/&quot;&gt;Inferno&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;add a sitemap or RSS feed&lt;/li&gt;
+&lt;li&gt;add &lt;a href=&quot;/packages/gatsby-plugin-google-analytics/&quot;&gt;Google Analytics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;…and much more!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;graphql-based-data-processing-layer&quot;&gt;&lt;a href=&quot;#graphql-based-data-processing-layer&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GraphQL-based data processing layer&lt;/h2&gt;
+&lt;p&gt;Plugins also drive the new GraphQL data processing layer. This new system
+enables rich integrations with CMSs like Contentful, Wordpress, and Drupal along
+with other remote and local sources.&lt;/p&gt;
+&lt;p&gt;In Gatsby v0, (like pretty much every static site generator) data was processed
+then &lt;em&gt;pushed&lt;/em&gt; into templates to be rendered into HTML. This is a straight-forward pattern
+and works great for many use cases. But when you start working on more complex
+sites, you really start to miss the flexibility of a database-driven site. With
+a database, all your data is available to query against in any fashion you’d
+like. Whatever bits of data you need to assemble a page, you can &lt;em&gt;pull&lt;/em&gt; in. You
+want to create author pages showing their bio and last 5 posts? It’s just a
+query away.&lt;/p&gt;
+&lt;p&gt;We wanted this same flexibility for Gatsby. So for 1.0, the Gatsby data team has
+built a new data processing layer which converts your data (whether from local
+files or remote sources) into a &lt;em&gt;GraphQL schema&lt;/em&gt; which you can query against
+like a database.&lt;/p&gt;
+&lt;p&gt;Every Gatsby page can have a GraphQL query which tells Gatsby what data is
+required for that page. The data layer runs the GraphQL queries during
+development and at build time and writes out a JSON file with the result of the
+query. This JSON file is then loaded alongside React code and injected into the
+React component as props.&lt;/p&gt;
+&lt;p&gt;Because we know at build-time what data is needed for every page, we can easily
+pre-fetch page data meaning even very complex, data-heavy pages load almost
+instantly.&lt;/p&gt;
+&lt;p&gt;This pattern of &lt;em&gt;colocating&lt;/em&gt; your queries next to your views is copied from the
+&lt;a href=&quot;https://facebook.github.io/relay/&quot;&gt;Relay data framework from Facebook&lt;/a&gt;.
+Colocation makes it easy to fully understand your views as everything necessary
+for that view is fully defined there.&lt;/p&gt;
+&lt;p&gt;An example of how this works in practice.&lt;/p&gt;
+&lt;p&gt;Say we had a markdown file that looked like:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;markdown&quot;&gt;&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;&lt;span class=&quot;token hr punctuation&quot;&gt;---&lt;/span&gt;
+title: A sweet post
+&lt;span class=&quot;token title important&quot;&gt;date: &quot;2017-02-23&quot;
+&lt;span class=&quot;token punctuation&quot;&gt;---&lt;/span&gt;&lt;/span&gt;
+
+This is my sweet blog post. &lt;span class=&quot;token bold&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;**&lt;/span&gt;Cool!&lt;span class=&quot;token punctuation&quot;&gt;**&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;In our site, we would write a React component which acts as a template for all
+the blog posts. Included with the component is an exported &lt;code class=&quot;language-text&quot;&gt;pageQuery&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// A basic React component for rendering a blog page.&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;BlogPostTemplate&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Component&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;markdownRemark&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;frontmatter&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;small&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;markdownRemark&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;frontmatter&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;date&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;small&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;
+          &lt;span class=&quot;token attr-name&quot;&gt;dangerouslySetInnerHTML&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            __html&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;markdownRemark&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;html&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+          &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; BlogPostTemplate
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; pageQuery &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; graphql&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`
+  query BlogPost($slug: String!) {
+    markdownRemark(slug: { eq: $slug }) {
+      # Get the markdown body compiled to HTML.
+      html
+      frontmatter {
+        title
+        # Transform the date at build time!
+        date(formatString: &quot;MMM D, YYYY&quot;)
+      }
+    }
+  }
+`&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;All data sourcing and transforming is plugin-driven. So in time, any imaginable
+data source and potential ways of transforming its data will be an &lt;code class=&quot;language-text&quot;&gt;npm install&lt;/code&gt;
+away.&lt;/p&gt;
+&lt;p&gt;For the markdown ecosystem there’s already a robust set of plugins including
+&lt;a href=&quot;/packages/gatsby-remark-prismjs/&quot;&gt;adding syntax highlighting with PrismJS&lt;/a&gt; and
+&lt;a href=&quot;/packages/gatsby-remark-images/&quot;&gt;resizing images referenced in markdown files&lt;/a&gt;
+so they’re mobile ready.&lt;/p&gt;
+&lt;p&gt;There’s also source plugins written for
+&lt;a href=&quot;/packages/gatsby-source-contentful/&quot;&gt;Contentful&lt;/a&gt;,
+&lt;a href=&quot;/packages/gatsby-source-wordpress/&quot;&gt;Wordpress&lt;/a&gt;,
+&lt;a href=&quot;/packages/gatsby-source-drupal/&quot;&gt;Drupal&lt;/a&gt;,
+&lt;a href=&quot;/packages/gatsby-source-hacker-news/&quot;&gt;Hacker News&lt;/a&gt; (really 😛), and more as
+well as transformer plugins for
+&lt;a href=&quot;/packages/gatsby-transformer-remark/&quot;&gt;markdown&lt;/a&gt;,
+&lt;a href=&quot;/packages/gatsby-transformer-json/&quot;&gt;JSON&lt;/a&gt;,
+&lt;a href=&quot;/packages/gatsby-transformer-yaml/&quot;&gt;YAML&lt;/a&gt;,
+&lt;a href=&quot;/packages/gatsby-transformer-documentationjs/&quot;&gt;JSDoc&lt;/a&gt;, React prop-types, and
+&lt;a href=&quot;/packages/gatsby-plugin-sharp/&quot;&gt;images&lt;/a&gt;. We’re collecting a list of additional
+source/transformer plugins that’d be useful to have over at
+&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/issues/1199&quot;&gt;https://github.com/gatsbyjs/gatsby/issues/1199&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;These plugins are easy to write (somewhat similar to webpack loaders) so we
+expect to see the list of plugins grow rapidly.&lt;/p&gt;
+&lt;h2 id=&quot;building-for-the-next-billion-internet-users&quot;&gt;&lt;a href=&quot;#building-for-the-next-billion-internet-users&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Building for the next billion internet users&lt;/h2&gt;
+&lt;p&gt;As
+&lt;a href=&quot;http://ben-evans.com/benedictevans/2015/5/13/the-smartphone-and-the-sun&quot;&gt;Benedict Evans has noted&lt;/a&gt;,
+the next billion people poised to come online will be using the internet almost
+exclusively through smartphones.&lt;/p&gt;
+&lt;p&gt;Smartphones with decent specs (as good or better than the Moto G4), a great
+browser, but &lt;em&gt;without&lt;/em&gt; a reliable internet connection.&lt;/p&gt;
+&lt;p&gt;Gatsby uses modern web performance ideas (e.g. the
+&lt;a href=&quot;/docs/prpl-pattern/&quot;&gt;PRPL Pattern&lt;/a&gt;) developed by the Google Chrome Developer
+Relations team and others to help websites work well on modern browsers with
+unreliable networks.&lt;/p&gt;
+&lt;p&gt;Sites built with Gatsby run as much as possible in the client so regardless of
+the network conditions—good, bad, or nonexistent—things will keep working. When
+a page loads, Gatsby immediately starts prefetching resources for pages nearby
+so that when a user clicks on a link, the new page loads instantly.&lt;/p&gt;
+&lt;p&gt;Many of the top e-commerce websites in areas where people are coming online for
+the first time are developing their websites using these techniques.&lt;/p&gt;
+&lt;p&gt;Read Google’s case studies on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developers.google.com/web/showcase/2016/flipkart&quot;&gt;Flipkart (India)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developers.google.com/web/showcase/2016/konga&quot;&gt;Konga (Nigeria)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developers.google.com/web/showcase/2016/housing&quot;&gt;Housing.com (India)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;service-worker-and-offline-support&quot;&gt;&lt;a href=&quot;#service-worker-and-offline-support&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Service worker and offline support&lt;/h2&gt;
+&lt;p&gt;Service workers are perhaps the most exciting technology that’s come to the web
+in the past several years. It makes possible (finally!) sophisticated client
+caching plus true offline support. We’ve added excellent support to Gatsby for
+Service Workers and a great offline experience. If you’re using Chrome or
+Firefox, this site loads and works offline! &lt;em&gt;Service workers make your site much
+more resilient against bad networks&lt;/em&gt;. If someone loads your site on a train and
+goes through a tunnel, you won’t lose them as they’ll still be able to keep
+clicking around.&lt;/p&gt;
+&lt;h2 id=&quot;route-based-code-splitting&quot;&gt;&lt;a href=&quot;#route-based-code-splitting&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Route-based code splitting&lt;/h2&gt;
+&lt;p&gt;Many sites generate one JavaScript bundle for the &lt;em&gt;entire&lt;/em&gt; site. Which means
+someone loading your frontpage loads far more code than is necessary which is
+bad then users get frustrated when site isn’t responsive to their clicks and
+touches while the code loads.&lt;/p&gt;
+&lt;p&gt;Gatsby 1.0 initially only loads the code necessary for the page you’re on. As
+you navigate around, Gatsby loads in the code needed for each route.&lt;/p&gt;
+&lt;p&gt;This means that one page with heavy imports:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; d3 &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;d3&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; threejs &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react-threejs&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;…won’t affect the performance of the rest of the site.&lt;/p&gt;
+&lt;p&gt;This is particularly helpful for teams of people collaborating on a site with
+pages with very different technical and business requirements. Different parts
+of the site can evolve independently of each other.&lt;/p&gt;
+&lt;p&gt;One client I’m working with on Gatsby 1.0 (a stealth startup in San Francisco)
+is using Gatsby to build both their marketing site &lt;em&gt;and&lt;/em&gt; SaaS app within the
+&lt;em&gt;same Gatsby codebase&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The marketing pages of their site are built using markdown and React components
+along with a modern css-in-js library
+&lt;a href=&quot;https://github.com/threepointone/glamor&quot;&gt;Glamor&lt;/a&gt; for styling. The SaaS portion
+uses &lt;a href=&quot;http://redux.js.org/&quot;&gt;Redux&lt;/a&gt; to communicate with their Django API.&lt;/p&gt;
+&lt;p&gt;The marketing portion of the site loads quickly with minimal JavaScript. When a
+potential customer goes to sign-up for the app, there’s no &lt;em&gt;awkward jump from
+the marketing website to the web app&lt;/em&gt;—just a simple page change which seamlessly
+loads in the needed JavaScript. The &lt;em&gt;team is sharing components and styles
+across the site&lt;/em&gt; without stepping on each others shoes as they rapidly iterate
+on features.&lt;/p&gt;
+&lt;h2 id=&quot;ending-note&quot;&gt;&lt;a href=&quot;#ending-note&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Ending note&lt;/h2&gt;
+&lt;p&gt;Gatsby is just getting started. We’re really looking forward to working with
+you! &lt;a href=&quot;https://github.com/gatsbyjs/gatsby&quot;&gt;See you on GitHub!&lt;/a&gt; 👋&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsby's first beta release]]></title><description><![CDATA[We shipped today Gatsby's first beta for 1.0! Gatsby is a modern blazing-fast static site generator for React.js…]]></description><link>https://ethluz.github.io/blog/gatsby-first-beta-release/</link><guid isPermaLink="false">https://ethluz.github.io/blog/gatsby-first-beta-release/</guid><content:encoded>&lt;p&gt;We shipped today Gatsby’s first beta for 1.0! Gatsby is a modern blazing-fast
+static site generator for React.js.&lt;/p&gt;
+&lt;p&gt;Ten months and one day ago
+&lt;a href=&quot;https://www.bricolage.io/gatsby-open-source-work/&quot;&gt;I announced I was now working full-time on Gatsby&lt;/a&gt;
+followed a month later by posting
+&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/issues/419&quot;&gt;an issue kickstarting the rewrite of Gatsby for a 1.0 release&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Since then 40 contributors have pushed 723 commits contributing to 23 alpha
+releases before today’s first beta release. It’s been a really enjoyable
+experience watching Gatsby v1 take form and helping shape that and the growing
+community around it.&lt;/p&gt;
+&lt;h3 id=&quot;whats-part-of-v1&quot;&gt;&lt;a href=&quot;#whats-part-of-v1&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What’s part of v1&lt;/h3&gt;
+&lt;p&gt;From Gatsby’s initial release just over two years ago, Gatsby has let you build
+static websites using React.js components as well as markdown, JSON, and YAML.&lt;/p&gt;
+&lt;p&gt;Building on this strong foundation, v1 adds:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New plugin architecture (to date 45+ plugins have been written)&lt;/li&gt;
+&lt;li&gt;New data layer which lets you integrate data from both remote (CMSs, APIs,
+etc.) and local sources&lt;/li&gt;
+&lt;li&gt;Progressive web app features such as automatic code and data splitting (by
+route), prefetching, and service worker and offline-first support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;special-thanks-to&quot;&gt;&lt;a href=&quot;#special-thanks-to&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Special thanks to&lt;/h2&gt;
+&lt;p&gt;Getting to this point wouldn’t have happened without the help of many
+individuals and companies.&lt;/p&gt;
+&lt;h3 id=&quot;individuals&quot;&gt;&lt;a href=&quot;#individuals&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Individuals&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/0x80&quot;&gt;Thijs Koerselman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/jquense&quot;&gt;Jason Quense&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/fabien0102&quot;&gt;Fabien Bernard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/scottyeck&quot;&gt;Scotty Eckenthal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/nicholaswyoung&quot;&gt;Nicholas Young&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/fk&quot;&gt;Florian Kissling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/jbolda&quot;&gt;Jacob Bolda&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/noahlange&quot;&gt;Noah Lange&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/danielfarrell&quot;&gt;Daniel Farrell&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/mericsson&quot;&gt;Marcus Ericsson&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/SachaG&quot;&gt;Sacha Greif&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/gutenye&quot;&gt;Guten Ye&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/rstacruz&quot;&gt;Rico Sta. Cruz&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;companies-who-sponsored-time-working-on-gatsby-v1&quot;&gt;&lt;a href=&quot;#companies-who-sponsored-time-working-on-gatsby-v1&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Companies who sponsored time working on Gatsby v1.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.thinkmill.com.au/&quot;&gt;Thinkmill&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://expo.io/&quot;&gt;Expo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://about.sourcegraph.com/&quot;&gt;Sourcegraph&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://segment.com&quot;&gt;Segment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://meetfabric.com/&quot;&gt;Meetfabric&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://x-team.com/&quot;&gt;X-Team&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.contentful.com/&quot;&gt;Contentful&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;our-open-source-hostingtesting-infastructure-providers&quot;&gt;&lt;a href=&quot;#our-open-source-hostingtesting-infastructure-providers&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Our open source hosting/testing infastructure providers&lt;/h3&gt;
+&lt;p&gt;It’d be impossible to write open source code without the generous support of
+these infrastructure providers.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.netlify.com/&quot;&gt;Netlify&lt;/a&gt; &lt;em&gt;Awesome static site continuous delivery &amp;#x26;
+hosting&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://travis-ci.org&quot;&gt;Travis CI&lt;/a&gt; &lt;em&gt;Test runner in the cloud&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.appveyor.com/&quot;&gt;Appveyor&lt;/a&gt; &lt;em&gt;Windows test runner in the cloud&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;changelog-since-100-alpha20&quot;&gt;&lt;a href=&quot;#changelog-since-100-alpha20&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Changelog since 1.0.0-alpha.20&lt;/h2&gt;
+&lt;h3 id=&quot;added&quot;&gt;&lt;a href=&quot;#added&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Allow for gatsby-remark-smartypants options
+&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/pull/1166&quot;&gt;#1166&lt;/a&gt; @mitchejj&lt;/li&gt;
+&lt;li&gt;New design (for gatsbyjs.org) + new home page
+&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/pull/1170&quot;&gt;#1170&lt;/a&gt; @kyleamathews&lt;/li&gt;
+&lt;li&gt;Add ability to locally define plugins
+&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/pull/1126&quot;&gt;#1126&lt;/a&gt; @0x80&lt;/li&gt;
+&lt;li&gt;Add rough draft for docs for creating source plugins
+&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/pull/1159&quot;&gt;#1159&lt;/a&gt; @kyleamathews&lt;/li&gt;
+&lt;li&gt;Optimizations around prefetching page resources
+&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/pull/1133&quot;&gt;#1133&lt;/a&gt; @kyleamathews&lt;/li&gt;
+&lt;li&gt;Redux example site &lt;a href=&quot;https://github.com/gatsbyjs/gatsby/pull/1081&quot;&gt;#1081&lt;/a&gt;
+@scottyeck&lt;/li&gt;
+&lt;li&gt;Sitemap Generator Plugin &lt;a href=&quot;https://github.com/gatsbyjs/gatsby/pull/1115&quot;&gt;#1115&lt;/a&gt;
+@nicholaswyoung&lt;/li&gt;
+&lt;li&gt;Add documentation to gatsby-remark-prism @kyleamathews&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;changed&quot;&gt;&lt;a href=&quot;#changed&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Move all filter operators for connections under a top-level “filter” field
+&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/pull/1177&quot;&gt;#1177&lt;/a&gt; @kyleamathews&lt;/li&gt;
+&lt;li&gt;Change &lt;code class=&quot;language-text&quot;&gt;linkPrefix&lt;/code&gt; to &lt;code class=&quot;language-text&quot;&gt;pathPrefix&lt;/code&gt; and add an example site
+&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/pull/1155&quot;&gt;#1155&lt;/a&gt; @kyleamathews&lt;/li&gt;
+&lt;li&gt;Make the plugin options for remark plugins the second argument (like
+everywhere else) &lt;a href=&quot;https://github.com/gatsbyjs/gatsby/pull/1167&quot;&gt;#1167&lt;/a&gt;
+@kyleamathews&lt;/li&gt;
+&lt;li&gt;Start using next instead of canary in example sites for package versions
+@kyleamathews&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;fixed&quot;&gt;&lt;a href=&quot;#fixed&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix graphql compiler on typescript
+&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/pull/949&quot;&gt;#949&lt;/a&gt; @fabien0102&lt;/li&gt;
+&lt;li&gt;Replace react.createClass with ES6 classes in examples html.js, add PropTypes
+&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/pull/1169&quot;&gt;#1169&lt;/a&gt; @abachuk&lt;/li&gt;
+&lt;li&gt;Fix windows build pull &lt;a href=&quot;https://github.com/gatsbyjs/gatsby/pull/1158&quot;&gt;#1158&lt;/a&gt;
+@kyleamathews&lt;/li&gt;
+&lt;li&gt;Use custom delimiter when flattening example values for enum fields so easy to
+convert back @kyleamathews&lt;/li&gt;
+&lt;li&gt;gatsby-remark-responsive-image: use span instead of div
+&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/pull/1151&quot;&gt;#1151&lt;/a&gt; @rstacruz&lt;/li&gt;
+&lt;li&gt;Add check that we can actually find a linked image file node @kyleamathews&lt;/li&gt;
+&lt;li&gt;Ignore SVGs in gatsby-remark-responsive-image
+&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/pull/1157&quot;&gt;#1157&lt;/a&gt; @fk&lt;/li&gt;
+&lt;li&gt;Replace using levelup for caching with lowdb to avoid native dependency
+&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/pull/1142&quot;&gt;#1142&lt;/a&gt; @kyleamathews&lt;/li&gt;
+&lt;li&gt;Fix Appveyor bug regarding build all examples on release
+&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/pull/1118&quot;&gt;#1118&lt;/a&gt; @jbolda&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Gatsbygram Case Study]]></title><description><![CDATA[Gatsbygram  is a clone of Instagram built with
+Gatsby v1. The
+ source code for Gatsbygram 
+lives in the Gatsby monorepo. See the…]]></description><link>https://ethluz.github.io/blog/gatsbygram-case-study/</link><guid isPermaLink="false">https://ethluz.github.io/blog/gatsbygram-case-study/</guid><content:encoded>&lt;p&gt;&lt;a href=&quot;https://gatsbygram.gatsbyjs.org&quot;&gt;Gatsbygram&lt;/a&gt; is a clone of Instagram built with
+Gatsby v1.&lt;/p&gt;
+&lt;p&gt;The
+&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/tree/master/examples/gatsbygram&quot;&gt;source code for Gatsbygram&lt;/a&gt;
+lives in the Gatsby monorepo. See the instructions at the end for how to start
+playing with the code!&lt;/p&gt;
+&lt;div&gt;
+&lt;video controls=&quot;controls&quot; autoplay=&quot;true&quot; loop=&quot;true&quot;&gt;
+  &lt;source type=&quot;video/mp4&quot; src=&quot;/gatsbygram.mp4&quot;&gt;&lt;/source&gt;
+  &lt;p&gt;Your browser does not support the video element.&lt;/p&gt;
+&lt;/video&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;what-is-gatsby&quot;&gt;&lt;a href=&quot;#what-is-gatsby&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What is Gatsby&lt;/h2&gt;
+&lt;p&gt;Gatsby is a JavaScript web framework that let’s you build fast, dynamic,
+mobile-ready websites &lt;em&gt;without&lt;/em&gt; an advanced degree in JavaScript wizardry.&lt;/p&gt;
+&lt;p&gt;It combines the fast performance of static websites with the powerful
+abstractions, tools, and client capabilities of the React.js world.&lt;/p&gt;
+&lt;h3 id=&quot;gatsby-is-fast&quot;&gt;&lt;a href=&quot;#gatsby-is-fast&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gatsby is fast&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;/docs/prpl-pattern/&quot;&gt;Gatsby automatically optimizes your site for the modern web&lt;/a&gt;.
+You provide pages and Gatsby stitches them together so they load as fast as
+possible.&lt;/p&gt;
+&lt;p&gt;As proof of this, Gatsbygram loads &lt;em&gt;2-3x faster&lt;/em&gt; than the real Instagram site.&lt;/p&gt;
+&lt;p&gt;I tested Gatsbygram and Instagram on
+&lt;a href=&quot;https://www.webpagetest.org/&quot;&gt;webpagetest.org&lt;/a&gt; using a simulated 3G network and
+a Moto G4 smartphone—a budget Android typical of many lower-end phones used
+today. The median
+&lt;a href=&quot;https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index&quot;&gt;speed index&lt;/a&gt;
+score for &lt;a href=&quot;http://www.webpagetest.org/result/170310_XP_11AS/&quot;&gt;Gatsbygram&lt;/a&gt; was
+3151 vs. 8251 for
+&lt;a href=&quot;http://www.webpagetest.org/result/170310_PC_11AZ/&quot;&gt;Instagram&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/gatsbygram-instagram-5601858ddaada0a99782cd925ec04ddd-b90e3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 786px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 10.705318420451952%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAq0lEQVQI12M4cuTI/xMnTvw/fPjw/yOH9//fu3vL/927tv/ev3fn/yUL58xhAAJHBlZuaQYGTj4gdgJiXyCOAGJXII5hYOMsFdXnLOTT4KwWM+FkOHv27P/Lly//P3PmzP9LFy/8P3fuzP8L58/9O3XyBFDs9Ofz5849PLFn16NT+/Y+Or5r+6Pd69Y+2rZyxaOtK5c/2r5qxaNNS5c8Wjt//qNVc2YB6UWPAHXRXIu+ok/+AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px #ffffff;&quot;
+        alt=&quot;gatsbygram vs. instagram filmstrip&quot;
+        title=&quot;&quot;
+        src=&quot;/static/gatsbygram-instagram-5601858ddaada0a99782cd925ec04ddd-c4266.png&quot;
+        srcset=&quot;/static/gatsbygram-instagram-5601858ddaada0a99782cd925ec04ddd-4fd5b.png 197w,
+/static/gatsbygram-instagram-5601858ddaada0a99782cd925ec04ddd-4fc86.png 393w,
+/static/gatsbygram-instagram-5601858ddaada0a99782cd925ec04ddd-c4266.png 786w,
+/static/gatsbygram-instagram-5601858ddaada0a99782cd925ec04ddd-22348.png 1179w,
+/static/gatsbygram-instagram-5601858ddaada0a99782cd925ec04ddd-f35d4.png 1572w,
+/static/gatsbygram-instagram-5601858ddaada0a99782cd925ec04ddd-1ea43.png 2358w,
+/static/gatsbygram-instagram-5601858ddaada0a99782cd925ec04ddd-b90e3.png 4381w&quot;
+        sizes=&quot;(max-width: 786px) 100vw, 786px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;em&gt;Filmstrip of
+Gatsbygram (top) and Instagram (bottom) loading on webpagetest.org&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The second repeat view is even faster for Gatsbygram as it now loads from its
+service worker. It has &lt;em&gt;pixels on the screen in under a 1/2 second on a budget
+Android device&lt;/em&gt;! And for both the initial and repeat view, Gatsbygram &lt;em&gt;finishes&lt;/em&gt;
+loading a full second before Instagram gets started.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/gatsbygram-instagram-repeat-load-14335d63b8d7a07b951f781833ab5bdb-daf86.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 786px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 30.99801718440185%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAABgElEQVQY042QPS9DYRiG39BJDBhqNxj9AH/AYjLbJGgrhMnAwCAn9LTpx6k2px8iQTEgdnSlpdUP9eogEaEtqietOsd5z+1tjSJxJ1fuJ0+e5XqIz+dDJBKG17WKcFCCy7kGSfJCctsRCXpYOOCE7HcroyOD/YRneGiwzWRqJ+YuE+nt/sHc1U56e3jzmeg6QzPl0hO+NBXVShGq2kCl8ga1UWO6VkdVUZTTQ6GP/CexWAzx+Dmi2xs4OtjHztYG9najWBWW4RAW2PzcOKwTYwo/HeC0cTo5HX/i8XggyzJXbiquQxTtXFmCw76CgCQaorAEl0Ngfr//PhQK3QaDobuwHKDOyTnqtlmo1zJDXVYLlSzT1DE5RYmmaS3lWq3e6nr9o9Wf6s9e1w0Dv2Lg+bGId/6Wl6cSf1cZymsF9w9FkFQqhUKhwLXjrU4kEqCU4uryEvl83kglk8jlckY6nWbZbJZlMll2c5Nm1xfnLHNxxjZliZ0c7zGfuMIWZ23sG6gQJzMZihc7AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px #ffffff;&quot;
+        alt=&quot;gatsbygram vs. instagram filmstrip repeat
+load&quot;
+        title=&quot;&quot;
+        src=&quot;/static/gatsbygram-instagram-repeat-load-14335d63b8d7a07b951f781833ab5bdb-c4266.png&quot;
+        srcset=&quot;/static/gatsbygram-instagram-repeat-load-14335d63b8d7a07b951f781833ab5bdb-4fd5b.png 197w,
+/static/gatsbygram-instagram-repeat-load-14335d63b8d7a07b951f781833ab5bdb-4fc86.png 393w,
+/static/gatsbygram-instagram-repeat-load-14335d63b8d7a07b951f781833ab5bdb-c4266.png 786w,
+/static/gatsbygram-instagram-repeat-load-14335d63b8d7a07b951f781833ab5bdb-22348.png 1179w,
+/static/gatsbygram-instagram-repeat-load-14335d63b8d7a07b951f781833ab5bdb-daf86.png 1513w&quot;
+        sizes=&quot;(max-width: 786px) 100vw, 786px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;em&gt;Filmstrip
+of a repeat view of Gatsbygram (top) and Instagram (bottom) loading on
+webpagetest.org&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The difference in Time to Interactivity (TTI) (measure of how long before the
+user can actually interact with the page e.g. click on a link) between the sites
+is just as dramatic. Gatsbygram’s TTI is 6.1s vs 14.1s for Instagram.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.webpagetest.org/result/170310_XP_11AS/&quot;&gt;Gatsbygram’s webpagetest results&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.webpagetest.org/result/170310_PC_11AZ/&quot;&gt;Instagram’s webpagetest results&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;gatsby-is-built-for-the-next-billion-internet-users&quot;&gt;&lt;a href=&quot;#gatsby-is-built-for-the-next-billion-internet-users&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gatsby is built for the next billion internet users&lt;/h3&gt;
+&lt;p&gt;As
+&lt;a href=&quot;http://ben-evans.com/benedictevans/2015/5/13/the-smartphone-and-the-sun&quot;&gt;Benedict Evans has noted&lt;/a&gt;,
+the next billion people poised to come online will be using the internet almost
+exclusively through smartphones.&lt;/p&gt;
+&lt;p&gt;Smartphones with decent specs (as good or better than the Moto G4), a great
+browser, but &lt;em&gt;without&lt;/em&gt; a reliable internet connection.&lt;/p&gt;
+&lt;p&gt;Gatsby uses modern web performance ideas (e.g.
+&lt;a href=&quot;https://developers.google.com/web/fundamentals/performance/prpl-pattern/&quot;&gt;PRPL&lt;/a&gt;)
+developed by the Google Chrome Developer Relations team and others to help
+websites work well on modern browsers with unreliable networks.&lt;/p&gt;
+&lt;p&gt;Sites built with Gatsby run as much as possible in the client so regardless of
+the network conditions—good, bad, or nonexistent—things will keep working.&lt;/p&gt;
+&lt;p&gt;Many of the top e-commerce websites in areas where people are coming online for
+the first time are developing their websites using these techniques.&lt;/p&gt;
+&lt;p&gt;Read Google’s case studies on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developers.google.com/web/showcase/2016/flipkart&quot;&gt;Flipkart (India)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developers.google.com/web/showcase/2016/konga&quot;&gt;Konga (Nigeria)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developers.google.com/web/showcase/2016/housing&quot;&gt;Housing.com (India)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;gatsby-is-simple&quot;&gt;&lt;a href=&quot;#gatsby-is-simple&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gatsby is simple&lt;/h3&gt;
+&lt;p&gt;Modern JavaScript websites are too complex to rely on developers always
+configuring things correctly. Gatsby simplifies website development by
+extracting configuration out of your site and moving it into the framework and
+community plugins.&lt;/p&gt;
+&lt;p&gt;You give Gatsby React.js components, data, and styles and Gatsby gives you back
+an optimized website.&lt;/p&gt;
+&lt;p&gt;Gatsbygram is a completely vanilla Gatsby site. Its optimizations are from the
+framework.&lt;/p&gt;
+&lt;p&gt;Gatsby includes a full modern JavaScript toolchain (Babel/webpack/Uglify) with
+optimized production builds and an innovative &lt;em&gt;declarative&lt;/em&gt; asset pipeline.&lt;/p&gt;
+&lt;p&gt;For Gatsbygram, Gatsby generates over &lt;em&gt;1000&lt;/em&gt; image thumbnails for responsive
+images without &lt;em&gt;any&lt;/em&gt; custom scripting by leveraging the Gatsby image processing
+plugin &lt;a href=&quot;/packages/gatsby-transformer-sharp/&quot;&gt;gatsby-transformer-sharp&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Stop wasting time and build something!&lt;/p&gt;
+&lt;h2 id=&quot;app-structure&quot;&gt;&lt;a href=&quot;#app-structure&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;App structure&lt;/h2&gt;
+&lt;p&gt;All static site generators create a set of files that determine the routing in
+your site. Typically, you define the output file structure (and thus URL
+structure) of your site by way of the input structure. For example the input
+structure:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;my-site/
+  index.md
+  blogs/
+    blog1.md&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;…would be transformed to:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;my-site/
+  index.html
+  blogs/
+    blog1.html&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This is fine at first, but can be limiting. For example, in Gatsbygram, we have
+a JSON data blob scraped from an Instagram user profile. From this we want to
+generate a page for each image. We couldn’t do this with a typical static site
+generator, but Gatsby lets you define routes programmatically through the
+&lt;code class=&quot;language-text&quot;&gt;createPages&lt;/code&gt; API using any data you have available.&lt;/p&gt;
+&lt;p&gt;Here is how we define pages from our JSON data for Gatsbygram at build time in
+the site’s
+&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/blob/master/examples/gatsbygram/gatsby-node.js&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby-node.js&lt;/code&gt; file&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; _ &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`lodash`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; Promise &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`bluebird`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; path &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`path`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; slug &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`slug`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; slash &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`slash`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// Implement the Gatsby API “createPages”. This is&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// called after the Gatsby bootstrap is finished so you have&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// access to any information necessary to programmatically&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// create pages.&lt;/span&gt;
+exports&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;createPages&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; graphql&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; boundActionCreators &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; createPage &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; boundActionCreators
+
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Promise&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;resolve&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; reject&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// The “graphql” function allows us to run arbitrary&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// queries against this Gatsbygram&apos;s graphql schema. Think of&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// it like Gatsbygram has a built-in database constructed&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// from static data that you can run queries against.&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;//&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// Post is a data node type derived from data/posts.json&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// which is created when scrapping Instagram. “allPostsJson”&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// is a &quot;connection&quot; (a GraphQL convention for accessing&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// a list of nodes) gives us an easy way to query all&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// Post nodes.&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;resolve&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;token function&quot;&gt;graphql&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+        &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`
+          {
+            allPostsJson(limit: 1000) {
+              edges {
+                node {
+                  id
+                }
+              }
+            }
+          }
+        `&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;result &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;result&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;errors&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;token function&quot;&gt;reject&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;result&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;errors&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+        &lt;span class=&quot;token comment&quot;&gt;// Create image post pages.&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; postTemplate &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; path&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;resolve&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`src/templates/post-page.js`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;// We want to create a detailed page for each&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;// Instagram post. Since the scrapped Instagram data&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;// already includes an ID field, we just use that for&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;// each page&apos;s path.&lt;/span&gt;
+        _&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;each&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;result&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;allPostsJson&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;edges&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; edge &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;token comment&quot;&gt;// Gatsby uses Redux to manage its internal state.&lt;/span&gt;
+          &lt;span class=&quot;token comment&quot;&gt;// Plugins and sites can use functions like &quot;createPage&quot;&lt;/span&gt;
+          &lt;span class=&quot;token comment&quot;&gt;// to interact with Gatsby.&lt;/span&gt;
+          &lt;span class=&quot;token function&quot;&gt;createPage&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token comment&quot;&gt;// Each page is required to have a `path` as well&lt;/span&gt;
+            &lt;span class=&quot;token comment&quot;&gt;// as a template component. The `context` is&lt;/span&gt;
+            &lt;span class=&quot;token comment&quot;&gt;// optional but is often necessary so the template&lt;/span&gt;
+            &lt;span class=&quot;token comment&quot;&gt;// can query data specific to each page.&lt;/span&gt;
+            path&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`/&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;slug&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;edge&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;id&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;/`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            component&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;slash&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;postTemplate&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            context&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+              id&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; edge&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;id&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+          &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+        &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;using-templates&quot;&gt;&lt;a href=&quot;#using-templates&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Using templates&lt;/h2&gt;
+&lt;p&gt;Gatsby uses standard React.js components to render pages. When you define a page
+in the &lt;code class=&quot;language-text&quot;&gt;createPages&lt;/code&gt; API, you specify its component. Those components, usually
+called templates, get reused with page-specific data to generate the different
+pages.&lt;/p&gt;
+&lt;p&gt;As you can see above, when defining a page, we can set “context” data, which is
+passed as a &lt;code class=&quot;language-text&quot;&gt;prop&lt;/code&gt; to the component and as a
+&lt;a href=&quot;http://graphql.org/learn/queries/#variables&quot;&gt;GraphQL variable&lt;/a&gt; in our &lt;code class=&quot;language-text&quot;&gt;GraphQL&lt;/code&gt;
+query. For the
+”&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/blob/master/examples/gatsbygram/src/templates/post-page.js&quot;&gt;post template&lt;/a&gt;”,
+we pass the id to the post. Below we use that id to query our &lt;code class=&quot;language-text&quot;&gt;GraphQL&lt;/code&gt; schema
+and return a fully formed page:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; PostDetail &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;../components/post-detail&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;PostTemplate&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Component&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;token comment&quot;&gt;// PostDetail is used for this detail page and&lt;/span&gt;
+      &lt;span class=&quot;token comment&quot;&gt;// also in the modal.&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;PostDetail&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;posts&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; PostTemplate
+
+&lt;span class=&quot;token comment&quot;&gt;// The post template&apos;s GraphQL query. Notice the “id”&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// variable which is passed in. We set this on the page&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// context in gatsby-node.js.&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;//&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// All GraphQL queries in Gatsby are run at build-time and&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// loaded as plain JSON files so have minimal client cost.&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; pageQuery &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`
+  query PostPage($id: String!) {
+    # Select the post which equals this id.
+    posts(id: { eq: $id }) {
+      # Specify the fields from the post we need.
+      username
+      avatar
+      likes
+      id
+      text
+      # Date fields have special arguments. This one computes
+      # how many weeks have passed since the post was created.
+      # All calculations like this (like all GraphQL query
+      # activity) happens at build-time! So has minimal cost
+      # for the client.
+      weeksAgo: time(difference: &quot;weeks&quot;)
+      image {
+        children {
+          ... on ImageSharp {
+            # Here we query for *multiple* image thumbnails to be
+            # created. So with no effort on our part, 100s of
+            # thumbnails are created. This makes iterating on
+            # designs effortless as we simply change the args
+            # for the query and we get new thumbnails.
+            big: fluid(maxWidth: 640) {
+              src
+              srcSet
+            }
+          }
+        }
+      }
+    }
+  }
+`&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;creating-reactjs-component-pages&quot;&gt;&lt;a href=&quot;#creating-reactjs-component-pages&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Creating React.js component pages&lt;/h2&gt;
+&lt;p&gt;In addition to creating pages for our Instagram photos, we want to make an index
+page for browsing all photos. To build this index page, Gatsby lets us create
+pages using React.js components.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;pages/
+  index.js
+  about.js&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;These React component pages can query the Gatsbygram GraphQL schema for data and
+are automatically converted into their own pages at &lt;code class=&quot;language-text&quot;&gt;gatsbygram.gatsbyjs.org/&lt;/code&gt;
+and &lt;code class=&quot;language-text&quot;&gt;gatsbygram.gatsbyjs.org/about/&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Gatsbygram’s &lt;code class=&quot;language-text&quot;&gt;about.js&lt;/code&gt; is a plain React component with no query. &lt;code class=&quot;language-text&quot;&gt;index.js&lt;/code&gt; is
+more complex. It queries for thumbnails for all images and has an infinite
+scroll implementation to lazy load in image thumbnails.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/blob/master/examples/gatsbygram/src/pages/index.js&quot;&gt;Read pages/index.js on GitHub&lt;/a&gt;
+&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/blob/master/examples/gatsbygram/src/pages/about.js&quot;&gt;Read pages/about.js on GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;the-layout-component&quot;&gt;&lt;a href=&quot;#the-layout-component&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The Layout Component&lt;/h2&gt;
+&lt;p&gt;Each Gatsby site has a top-level layout component at &lt;code class=&quot;language-text&quot;&gt;layouts/index.js&lt;/code&gt;. This
+layout component is used on every page of your site so can contain things like
+your header, footer, and default page structure. It is also used as the
+”&lt;a href=&quot;https://developers.google.com/web/updates/2015/11/app-shell&quot;&gt;app shell&lt;/a&gt;” when
+loading your site from a service worker.&lt;/p&gt;
+&lt;p&gt;A small layout component might look something like this.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Link &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Layout&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Component&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;Link&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;/&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;Home&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;Link&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;br&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;/* Render children pages */&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;children&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; Layout&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Every page will be rendered as children of the &lt;code class=&quot;language-text&quot;&gt;Layout&lt;/code&gt; component:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;Layout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;Page&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;Layout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Gatsbygram’s layout component is somewhat more complicated than most sites as it
+has logic to show clicked images in either a modal on larger screens or on their
+own page on smaller screens.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/blob/master/examples/gatsbygram/src/layouts/index.js&quot;&gt;Read Gatsbygram’s Layout component on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;client-routing-and-pre-caching&quot;&gt;&lt;a href=&quot;#client-routing-and-pre-caching&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Client routing and pre-caching&lt;/h2&gt;
+&lt;p&gt;Gatsby loads first a static server-rendered HTML page and then the JavasScript
+to convert the site into a web application. Which means that clicking around the
+site doesn’t require a page reload. Gatsby &lt;em&gt;pre-caches&lt;/em&gt; code and data needed for
+other pages so that clicking on a link loads the next page instantly.&lt;/p&gt;
+&lt;p&gt;All the setup for this is handled behind the scenes. Gatsby uses
+&lt;a href=&quot;https://reach.tech/router/&quot;&gt;@reach/router&lt;/a&gt; under the hood but
+generates all the configuration for you.&lt;/p&gt;
+&lt;p&gt;Normally page resources are pre-cached with a service worker. But as several
+browsers (Safari/Microsoft Edge) still don’t support Service Workers, the
+&lt;a href=&quot;/packages/gatsby/&quot;&gt;Gatsby &lt;code class=&quot;language-text&quot;&gt;&amp;lt;Link&amp;gt;&lt;/code&gt; component&lt;/a&gt; pre-caches resources for
+pages it links to by loading them into memory.&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;&lt;a href=&quot;#plugins&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Plugins&lt;/h2&gt;
+&lt;p&gt;Gatsby has always had a rich set of lifecycle APIs to allow you to hook into
+various events during development, building, and in the client.&lt;/p&gt;
+&lt;p&gt;Gatsby 1.0 adds new APIs and also adds a
+&lt;a href=&quot;/docs/plugins/&quot;&gt;new plugin architecture&lt;/a&gt;. So functionality can now be extracted
+from sites and made reusable. Most of the new functionality in Gatsby 1.0 is
+powered by plugins.&lt;/p&gt;
+&lt;p&gt;Plugins are added to a site in its &lt;code class=&quot;language-text&quot;&gt;gatsby-config.js&lt;/code&gt;. Here’s what Gatsbygram’s
+config file looks like:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  siteMetadata&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    title&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`Gatsbygram`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  plugins&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;/*
+     * Gatsby&apos;s data processing layer begins with “source”
+     * plugins.  You can source data nodes from anywhere but
+     * most sites, like Gatsbygram, will include data from
+     * the filesystem so we start here with
+     * “gatsby-source-filesystem”.
+     *
+     * A site can have as many instances of
+     * gatsby-source-filesystem as you need.  Each plugin
+     * instance is configured with a root path where it then
+     * recursively reads in files and adds them to the data
+     * tree.
+     */&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      resolve&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`gatsby-source-filesystem`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      options&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`data`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        path&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;__dirname&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;/data`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// This plugin exposes helper functions for processing&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// images with the NPM package “sharp”. It&apos;s used by&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// several other plugins.&lt;/span&gt;
+    &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`gatsby-plugin-sharp`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// This plugin identifies file nodes that are images and&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// transforms these to create new “ImageSharp” nodes.&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// With them you can resize images and&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// generate responsive image thumbnails.&lt;/span&gt;
+    &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`gatsby-transformer-sharp`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// This plugin transforms JSON file nodes.&lt;/span&gt;
+    &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`gatsby-transformer-json`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// This plugin sets up the popular css-in-js library&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// Glamor. It handles adding a Babel plugin and webpack&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// configuration as well as setting up optimized server&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// rendering and client re-hydration.&lt;/span&gt;
+    &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`gatsby-plugin-glamor`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// This plugin takes your configuration and generates a&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// web manifest file so Gatsbygram can be added to your&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// homescreen on Android.&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      resolve&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`gatsby-plugin-manifest`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      options&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`Gatsbygram`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        short_name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`Gatsbygram`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        start_url&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`/`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        background_color&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`#f7f7f7`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        theme_color&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`#191919`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        display&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`minimal-ui`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// This plugin generates a service worker and AppShell&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// html file so the site works offline and is otherwise&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// resistant to bad networks. Works with almost any&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// site!&lt;/span&gt;
+    &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`gatsby-plugin-offline`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// This plugin sets up Google Analytics for you.&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      resolve&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`gatsby-plugin-google-analytics`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      options&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        trackingId&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`UA-91652198-1`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;styles&quot;&gt;&lt;a href=&quot;#styles&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Styles&lt;/h2&gt;
+&lt;p&gt;Gatsbygram uses two popular and complementary css-in-js libraries,
+&lt;a href=&quot;https://github.com/KyleAMathews/typography.js&quot;&gt;Typography.js&lt;/a&gt; and
+&lt;a href=&quot;https://github.com/threepointone/glamor&quot;&gt;Glamor&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Typography.js is a powerful toolkit for building websites with beautiful design.&lt;/p&gt;
+&lt;p&gt;Gatsbygram uses Typography.js to generate the &lt;em&gt;global&lt;/em&gt; styles for the site
+helping set the overall feel of the design.&lt;/p&gt;
+&lt;p&gt;Glamor lets you write &lt;em&gt;real CSS&lt;/em&gt; in JavaScript inline in your React.js
+components. It is used for &lt;em&gt;component&lt;/em&gt; styles.&lt;/p&gt;
+&lt;p&gt;Typography.js exposes two helper JavaScript functions, &lt;code class=&quot;language-text&quot;&gt;rhythm&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;scale&lt;/code&gt; to
+help keep your design in sync as you make changes. Instead of using hard-coded
+spacing values (which break as soon as you change your global theme), you use
+the Typography.js helper functions e.g.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; rhythm&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; scale &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;../utils/typography&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;SampleComponent&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;React&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div
+        &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;/* The “css” prop works the same as the built-in “style” prop */&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        css&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;token comment&quot;&gt;// 1 rhythm is equal to the height of the line-height of&lt;/span&gt;
+          &lt;span class=&quot;token comment&quot;&gt;// normal body text.&lt;/span&gt;
+          padding&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;rhythm&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;h1&lt;/span&gt;
+          &lt;span class=&quot;token attr-name&quot;&gt;css&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token comment&quot;&gt;// Make this h1 slightly larger than normal.&lt;/span&gt;
+            &lt;span class=&quot;token comment&quot;&gt;// By default, h1 is set to a scale value of 1.&lt;/span&gt;
+            &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;scale&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+          &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+          My sweet title
+        &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+        &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;Hello friends&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Together they allow you to quickly iterate on designs.&lt;/p&gt;
+&lt;p&gt;They also contribute to Gatsbygram’s excellent loading speed. The holy grail of
+CSS performance is &lt;em&gt;inlined critical CSS&lt;/em&gt;. Meaning a) only ship a page with the
+CSS necessary to render that page and b) inline it in the &lt;code class=&quot;language-text&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; instead of
+putting it in a separate file. There are various tools to make this happen but
+they tend to involve extensive configuration and heavy post-processing.&lt;/p&gt;
+&lt;p&gt;But with Typography.js and Glamor you get optimized CSS with no tedious,
+error-prone bookkeeping. Typography.js (by definition) generates only global
+styles so its styles are included on every page. Glamor includes some
+&lt;a href=&quot;https://github.com/threepointone/glamor/blob/master/docs/server.md&quot;&gt;clever server-rendering optimizations&lt;/a&gt;
+which I’ve implemented in the
+&lt;a href=&quot;/packages/gatsby-plugin-glamor/&quot;&gt;Gatsby Glamor plugin&lt;/a&gt; where it automatically
+extracts out the CSS used &lt;em&gt;in components on the page being server rendered&lt;/em&gt; and
+automatically inlines those styles in the generated HTML page.&lt;/p&gt;
+&lt;p&gt;Super fast CSS by default. 👏👏👏&lt;/p&gt;
+&lt;h2 id=&quot;creating-your-own-gatsbygram&quot;&gt;&lt;a href=&quot;#creating-your-own-gatsbygram&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Creating your own Gatsbygram&lt;/h2&gt;
+&lt;p&gt;It’s easy to create your own “Gatsbygram” site from an Instagram account.&lt;/p&gt;
+&lt;h3 id=&quot;instructions-on-setting-up-your-own-gatsbygram-site&quot;&gt;&lt;a href=&quot;#instructions-on-setting-up-your-own-gatsbygram-site&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Instructions on setting up your own Gatsbygram site.&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Clone the Gatsby repo.&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone -b 1.0 git@github.com:gatsbyjs/gatsby.git
+&lt;span class=&quot;token function&quot;&gt;cd&lt;/span&gt; gatsby/examples/gatsbygram
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Remove the committed scrapped Instagram data&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; -r data
+
+&lt;span class=&quot;token comment&quot;&gt;# Scrape a new account&lt;/span&gt;
+node scrape.js INSTAGRAM_USERNAME
+
+&lt;span class=&quot;token comment&quot;&gt;# Wait for pictures to download...&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Start the Gatsby development server. The initial&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# run will take extra time as it processes&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# images the first time.&lt;/span&gt;
+gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;While writing this post I scraped a few accounts and published their resulting
+“Gatsbygram” sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://iceland-gatsbygram.netlify.com&quot;&gt;https://iceland-gatsbygram.netlify.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://tinyhouses-gatsbygram.netlify.com&quot;&gt;https://tinyhouses-gatsbygram.netlify.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;With thanks to Sam Bhagwatt, Sunil Pai, Nolan Lawson, Nik Graf, Jeff Posnick,
+and Addy Osmani for their reviews.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;And a special thanks to Kristo Jorgenson for his
+&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/pull/708&quot;&gt;refactor of the “App structure” section&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
