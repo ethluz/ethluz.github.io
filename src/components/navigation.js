@@ -160,7 +160,7 @@ export default ({ pathname }) => {
           <NavItem linkTo="/tags/区块链理论/">区块链理论</NavItem>
           {/* <NavItem linkTo="/tags/链层开发/">链层开发</NavItem> */}
           <NavItem linkTo="/tags/服务端/">Service&Linux</NavItem>
-          <NavItem linkTo="/tags/other/">杂记</NavItem>
+          <NavItem linkTo="/tags/杂记/">杂记</NavItem>
         </ul>
         <div
           css={{
