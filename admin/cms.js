@@ -2702,9 +2702,16 @@ var Navbar = function Navbar() {
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
       className: "navbar-item",
       to: "/tags/\u533A\u5757\u94FE"
-    }, "\u533A\u5757\u94FE"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      className: "navbar-item"
-    }, "Documentation")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, "\u533A\u5757\u94FE"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      className: "navbar-item",
+      to: "tags/\u540E\u7AEF"
+    }, "\u540E\u7AEF"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      className: "navbar-item",
+      to: "tags/react"
+    }, "react"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      className: "navbar-item",
+      to: "tags/"
+    }, "\u5168\u90E8\u5206\u7C7B")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "navbar-end"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "navbar-item"
@@ -7725,7 +7732,9 @@ var BlogPostTemplate = function BlogPostTemplate(_ref) {
     className: "columns"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "column is-10 is-offset-1"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(PostContent, {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    className: "title is-size-2 has-text-weight-bold is-bold-light"
+  }, title), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(PostContent, {
     content: content
   }), tags && tags.length ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     style: {
