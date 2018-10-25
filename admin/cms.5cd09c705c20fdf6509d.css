@@ -36,6 +36,9 @@
 .max-width {
   max-width: 800px !important; }
 
+.section {
+  padding: 15px; }
+
 /*! bulma.io v0.7.2 | MIT License | github.com/jgthms/bulma */
 @-webkit-keyframes spinAround {
   from {
@@ -6817,4 +6820,4 @@ label.panel-block {
   padding: 3rem 1.5rem 6rem; }
 
 
-/*# sourceMappingURL=cms.cd2d974b60fa9769a859.css.map*/
+/*# sourceMappingURL=cms.5cd09c705c20fdf6509d.css.map*/
