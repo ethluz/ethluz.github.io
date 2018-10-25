@@ -34,7 +34,8 @@
   margin-top: 0 !important; }
 
 .max-width {
-  max-width: 800px !important; }
+  max-width: 800px !important;
+  padding: 30px; }
 
 .section {
   padding: 10px !important; }
@@ -6820,4 +6821,4 @@ label.panel-block {
   padding: 3rem 1.5rem 6rem; }
 
 
-/*# sourceMappingURL=cms.0d04a88a170688b91df4.css.map*/
+/*# sourceMappingURL=cms.76d3790f7085e86f8fbc.css.map*/

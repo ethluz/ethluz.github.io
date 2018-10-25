@@ -34,7 +34,8 @@
   margin-top: 0 !important; }
 
 .max-width {
-  max-width: 800px !important; }
+  max-width: 800px !important;
+  padding: 30px; }
 
 .section {
   padding: 10px !important; }
