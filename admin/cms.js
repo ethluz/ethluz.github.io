@@ -7723,15 +7723,13 @@ var BlogPostTemplate = function BlogPostTemplate(_ref) {
       title = _ref.title;
   var PostContent = contentComponent || _components_Content__WEBPACK_IMPORTED_MODULE_7__["default"];
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
-    className: "section"
+    className: "container max-width"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_4___default.a, {
     title: title + " | Blog"
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "container content"
+    className: "content is-center"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "columns"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "column is-10 is-offset-1"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
     className: "title is-size-2 has-text-weight-bold is-bold-light"
   }, title), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(PostContent, {
@@ -7748,7 +7746,7 @@ var BlogPostTemplate = function BlogPostTemplate(_ref) {
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_5__["Link"], {
       to: "/tags/" + Object(lodash__WEBPACK_IMPORTED_MODULE_3__["kebabCase"])(tag) + "/"
     }, tag));
-  }))) : null))));
+  }))) : null)));
 };
 BlogPostTemplate.propTypes = {
   content: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.node.isRequired,
