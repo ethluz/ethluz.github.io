@@ -7727,7 +7727,7 @@ var BlogPostTemplate = function BlogPostTemplate(_ref) {
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_4___default.a, {
     title: title + " | Blog"
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "container  content"
+    className: "container content"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "columns"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
