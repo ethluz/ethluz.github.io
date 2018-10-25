@@ -13,6 +13,26 @@ class TagRoute extends React.Component {
         </Link>
       </li>
     ))
+    const postLinkss = posts.map(post => (
+        <div
+            className="content "
+            key={post.id}
+        >
+            <p>
+                <Link className="has-text-grey-darker title is-5" to={post.node.fields.slug}>
+                    {post.node.frontmatter.title}
+                </Link>
+           
+            </p>
+            <p>
+                <Link className="has-text-grey " to={post.node.fields.slug}>
+                    {post.node.excerpt}
+                </Link>
+                <br />
+                <br />
+            </p>
+        </div>
+      ))
     const tag = this.props.pageContext.tag
     const title = this.props.data.site.siteMetadata.title
     const totalCount = this.props.data.allMarkdownRemark.totalCount
@@ -22,7 +42,7 @@ class TagRoute extends React.Component {
 
     return (
       <Layout>
-        <section className="section">
+        {/* <section className="section">
           <Helmet title={`${tag} | ${title}`} />
           <div className="container content">
             <div className="columns">
@@ -38,6 +58,18 @@ class TagRoute extends React.Component {
               </div>
             </div>
           </div>
+        </section> */}
+        <Helmet title={`${tag} | ${title}`} />
+     
+        <section className="container max-width">
+            <div 
+                className="section is-center"
+            >
+               <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
+                {postLinkss}
+                {/* <Link to="/tags/">全部分类</Link> */}
+            </div>
+          
         </section>
       </Layout>
     )
@@ -61,6 +93,7 @@ export const tagPageQuery = graphql`
       totalCount
       edges {
         node {
+          excerpt(pruneLength: 400)  
           fields {
             slug
           }

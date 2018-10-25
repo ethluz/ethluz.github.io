@@ -1,23 +1,21 @@
 ---
 templateKey: blog-post
 title: 以太坊1.0下,Geth的安装&使用&文档资源
-date: 2017-12-17T15:04:10.000Z
+date: 2018-12-17T15:04:10.000Z
 description: 以太坊1.0下,Geth在不同环境下的安装,启动命令,docker下的使用,以及geth的开发资源,文档等.
 tags:
   - 区块链
   - 服务端
   - 以太坊
 ---
-# 以太坊1.0下,Geth的安装&使用&文档资源
-
 ## 理论:
 以太坊1.0下采用pow共识机制,每个节点,都有区块链的数据,而在设计时考虑到不同的需求,硬件环境等,特提供了3种方式,允许节点不必完整区块数据.
 # 同步模式:
-*fast:*
- 启动快速区块同步模式，在同步到最新区块后，转化为正常区块同步模式.
-*full:*
++ *fast:* 
+启动快速区块同步模式，在同步到最新区块后，转化为正常区块同步模式.
++ *full:*
 同步所有区块，会拥有完整的区块链数据.
-*Light: *
++ *Light:*
 轻节点模式，只会同步区块头信息，可以完成基本的命令操作.
 
 ## 实战
@@ -118,14 +116,14 @@ docker run -it -p 30303:30303 ethereum/client-go
 #### 读取geth等以太坊客户端的数据,为交易数据查询服务:
 *1.EtherSQL：Python脚本*
 抓取节点数据，并保存到postgresql上，可使用sql查询区块链数据，主要依赖：web3.py， SqlAlchemy等库。
-库：[https://github.com/analyseether/ether\_sql](https://github.com/analyseether/ether_sql)
-文档：[https://ether-sql.readthedocs.io](https://ether-sql.readthedocs.io)
-链锯：Spankchain简单的事件跟踪
+
+ + 下载：[https://github.com/analyseether/ether\_sql](https://github.com/analyseether/ether_sql)
+ + 文档：[https://ether-sql.readthedocs.io](https://ether-sql.readthedocs.io)
+
 
 *2.Presto-Ethereum：以太坊客户端的Presto连接器*
 来自雅虎的华人工程师，java所写，用这个连接器，人们就可以开始使用以太坊区块链分析工作，而无需知道如何使用细节Javascript API。
-文档和安装：
-[https://github.com/xiaoyao1991/presto-ethereum](https://github.com/xiaoyao1991/presto-ethereum)
++ 文档和安装：[https://github.com/xiaoyao1991/presto-ethereum](https://github.com/xiaoyao1991/presto-ethereum)
 
-#### Geth源码解读(提升go语言必备)
+#### Geth源码解读
 [https://github.com/ZtesoftCS/go-ethereum-code-analysis](https://github.com/ZtesoftCS/go-ethereum-code-analysis)

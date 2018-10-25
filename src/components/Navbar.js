@@ -81,12 +81,23 @@ const Navbar = () => (
         <div id="navbarBasicExample" className="navbar-menu">
             <div className="navbar-start">
                     <Link className="navbar-item" to="/tags/区块链">
-                                区块链
+                        区块链
                     </Link>
-
-                    <a className="navbar-item">
+                    <Link className="navbar-item" to="tags/后端">
+                        后端
+                    </Link>
+                    <Link className="navbar-item" to="tags/react">
+                        react
+                    </Link>
+                    {/* <Link className="navbar-item" to="tags/服务端">
+                        区块链
+                    </Link> */}
+                    <Link className="navbar-item" to="tags/">
+                        全部分类
+                    </Link>
+                    {/* <a className="navbar-item">
                     Documentation
-                    </a>
+                    </a> */}
 
                     {/* <div className="navbar-item has-dropdown is-hoverable">
                         <a className="navbar-link">

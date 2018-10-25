@@ -5,10 +5,8 @@ date: 2017-12-17T15:04:10.000Z
 description: docker安装,docker+nodejs,doker+python爬虫的使用案例,docker文档资源等
 tags:
   - docker
-  - 服务端
+  - 后端
 ---
-# docker使用,Python+nodejs为例
-
 ####   使用docker的流程
 + 1.cd到项目目录下(例如web网站根目录,nodejs就是package.json所在目录).
 + 2.编写Dockerfile(后面回介绍dockerfile的使用)
