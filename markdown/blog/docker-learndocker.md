@@ -7,7 +7,9 @@ tags:
   - docker
   - 后端
 ---
-####   使用docker的流程
+
+
+##使用docker的流程
 + 1.cd到项目目录下(例如web网站根目录,nodejs就是package.json所在目录).
 + 2.编写Dockerfile(后面回介绍dockerfile的使用)
 + 3.创建image: (在Dockerfile所在的目录下)	
@@ -26,7 +28,7 @@ tags:
 		docker run -d -p {系统端口}:{容器端口} {image\_name} . 
 		```
 
-#### 常用命令
+##常用命令
 查看daocker正在运行的容器: 
 ```bash
 docker ps  
@@ -93,7 +95,7 @@ sudo docker exec -it 0219df69bd3d node -v
 辅助文档:
 
 
-#### docker必备命令
+## docker必备命令
 *使用容器中的命令*
 
 
@@ -105,7 +107,7 @@ sudo docker exec -it 0219df69bd3d node -v
 
 
 
-附文档:
+##附文档:
 docker中文文档:
 [https://docs.docker-cn.com/](https://docs.docker-cn.com/)
 

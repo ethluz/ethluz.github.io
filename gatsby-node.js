@@ -14,6 +14,11 @@ exports.createPages = ({ actions, graphql }) => {
             fields {
               slug
             }
+            html
+            headings {
+              value
+              depth
+            }
             frontmatter {
               tags
               templateKey
@@ -44,6 +49,8 @@ exports.createPages = ({ actions, graphql }) => {
         },
       })
     })
+
+    
 
     // Tag pages:
     let tags = []
