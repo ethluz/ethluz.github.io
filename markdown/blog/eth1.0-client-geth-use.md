@@ -18,7 +18,6 @@ tags:
 + *Light:*
 轻节点模式，只会同步区块头信息，可以完成基本的命令操作.
 
-# do it
 ## 安装方式
 官方网站:[https://geth.ethereum.org/downloads/](https://geth.ethereum.org/downloads/)
 Ubuntu包:
@@ -89,7 +88,7 @@ eth.syncing
 eth.blockNumber
 ```
 
-##docker next use
+##docker 中使用
 docker下,pull此镜像:
 ```bash
 docker pull ethereum/client-go

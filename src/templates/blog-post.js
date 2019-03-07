@@ -2,15 +2,11 @@ import React from 'react'
 import Helmet from 'react-helmet'
 // import Link from 'gatsby-link'
 import { pickBy, mapKeys, pick, identity } from 'lodash'
-//import styled, { injectGlobal } from 'styled-components'
 import styled from 'styled-components'
-
 import { graphql } from 'gatsby'
-// import PropTypes from 'prop-types'
 
 import Layout from '../components/Layoutcontent'
 import Sidebar from '../components/docs/Sidebar'
-
 
 
 const Documentation = styled.main`
@@ -167,29 +163,24 @@ const BlogPost = ({ data }) => {
     ),
     identity
   )
-//   console.log(post.headings);
-//   console.log(extras);
-//   console.log(post.tableOfContents.toc);
+
   return (
      <Layout>
          <div>
-         {/* 11111 */}
-         {/* <ThemeProvider theme={theme}> */}
-         {/* <React.Fragment> */}
+      
             <Helmet>
                 <title>{post.frontmatter.title} &middot;  Blog </title>
             </Helmet>
         
             <Documentation>
                 <DocHeader>
-                <   h1>{post.frontmatter.title}</h1>
+                < h1>{post.frontmatter.title}</h1>
                 { post.frontmatter.description ? <p>{post.frontmatter.description}</p> : ''}
                 </DocHeader>
                 <DocContents dangerouslySetInnerHTML={{ __html: post.html }} />
             </Documentation>
             <Sidebar headings={post.headings} extras={extras}  />
-            {/* </React.Fragment> */}
-         {/* </ThemeProvider> */}
+   
         </div>
     </Layout>
 

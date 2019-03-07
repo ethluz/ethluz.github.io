@@ -6,17 +6,11 @@ import Layout from '../components/Layout'
 class TagRoute extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
-    // const postLinks = posts.map(post => (
-    //   <li key={post.node.fields.slug}>
-    //     <Link to={post.node.fields.slug}>
-    //       <h2 className="is-size-2">{post.node.frontmatter.title}</h2>
-    //     </Link>
-    //   </li>
-    // ))
-    const postLinkss = posts.map(post => (
+
+    const postLinkss = posts.map((post, index) => (
         <div
             className="content "
-            key={post.id}
+            key={index}
         >
             <p>
                 <Link className="has-text-grey-darker title is-5" to={post.node.fields.slug}>
@@ -36,40 +30,24 @@ class TagRoute extends React.Component {
     const tag = this.props.pageContext.tag
     const title = this.props.data.site.siteMetadata.title
     const totalCount = this.props.data.allMarkdownRemark.totalCount
-    const tagHeader = `${totalCount} post${
-      totalCount === 1 ? '' : 's'
-    } tagged with “${tag}”`
+    // const tagHeader = `${totalCount} post${
+    //   totalCount === 1 ? '' : 's'
+    // } tagged with “${tag}”`
+
+    const tagHeader = `分类:“${tag}”,共{${totalCount}}篇文章`
 
     return (
       <Layout>
-        {/* <section className="section">
-          <Helmet title={`${tag} | ${title}`} />
-          <div className="container content">
-            <div className="columns">
-              <div
-                className="column is-10 is-offset-1"
-                style={{ marginBottom: '6rem' }}
-              >
-                <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
-                <ul className="taglist">{postLinks}</ul>
-                <p>
-                  <Link to="/tags/">全部分类</Link>
-                </p>
-              </div>
-            </div>
-          </div>
-        </section> */}
+       
         <Helmet title={`${tag} | ${title}`} />
      
         <section className="container max-width">
             <div 
                 className="section is-center"
             >
-               <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
-                {postLinkss}
-                {/* <Link to="/tags/">全部分类</Link> */}
+            <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
+            {postLinkss}
             </div>
-          
         </section>
       </Layout>
     )

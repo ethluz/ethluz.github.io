@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import  { ThemeProvider } from 'styled-components'
 import './all.sass'
-// import './styles.css'
+import './styles.css'
 import Navbar from '../components/Navbar'
 const theme = {
   monospace: `'Source Code Pro', monospace`,
