@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Navbar from '../components/Navbar'
+// require("prismjs/plugins/line-numbers/prism-line-numbers.css")
 import './all.sass'
 
 // class Profile extends Component{

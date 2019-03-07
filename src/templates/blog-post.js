@@ -14,6 +14,7 @@ const Documentation = styled.main`
   width: 60%;
   margin-left: 20%;
   padding: 2em 4em;
+  margin-bottom: 80px !important;
 
   @media ${props => props.theme.mobile} {
     width: 100%;
@@ -166,7 +167,7 @@ const BlogPost = ({ data }) => {
 
   return (
      <Layout>
-         <div>
+         <div className='content-container' >
       
             <Helmet>
                 <title>{post.frontmatter.title} &middot;  Blog </title>
