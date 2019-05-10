@@ -2688,9 +2688,6 @@ function (_Component) {
       to: "tags/nodejs"
     }, "nodejs"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
       className: "navbar-item",
-      to: "tags/rust"
-    }, "\u6BCF\u65E5rust"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-      className: "navbar-item",
       to: "tags/"
     }, "\u5168\u90E8\u5206\u7C7B")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
       className: "navbar-end"
