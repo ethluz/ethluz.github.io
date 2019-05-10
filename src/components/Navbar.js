@@ -43,9 +43,9 @@ export default class Navbar extends Component {
                         <Link className="navbar-item" to="tags/nodejs">
                             nodejs
                         </Link>
-                        <Link className="navbar-item" to="tags/rust">
+                        {/* <Link className="navbar-item" to="tags/rust">
                             每日rust
-                        </Link>
+                        </Link> */}
                         {/* <Link className="navbar-item" to="tags/杂记">
                             杂记
                         </Link> */}

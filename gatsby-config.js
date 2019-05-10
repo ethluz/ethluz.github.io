@@ -23,28 +23,9 @@ module.exports = {
     
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-    // {
-    //   resolve: 'gatsby-transformer-remark',
-    //   options: {
-    //     plugins: [
-    //         `gatsby-remark-autolink-headers`,
-    //         `gatsby-remark-prismjs`,
-    //         // {
-    //         //     resolve: `gatsby-remark-prismjs`,
-    //         // }
-    //     ],
-    //   },
-    // },
     {
         resolve: 'gatsby-transformer-remark',
-        // options: {
-        //   plugins: [
-        //     `gatsby-remark-autolink-headers`,
-        //     {
-        //       resolve: `gatsby-remark-prismjs`,
-        //     }
-        //   ]
-        // }
+    
         options: {
             plugins: [
               {
@@ -54,13 +35,6 @@ module.exports = {
                   showCaptions: true,
                 },
               },
-              // {
-              //   resolve: 'gatsby-remark-external-links',
-              //   options: {
-              //     target: '_blank',
-              //     rel: 'nofollow noopener noreferrer',
-              //   },
-              // },
               {
                 resolve: 'gatsby-remark-prismjs',
                 options: {
@@ -83,8 +57,6 @@ module.exports = {
             ],
           },
     },
-   
-    // `gatsby-remark-responsive-iframe`,
     `gatsby-plugin-styled-components`,
     {
       resolve: 'gatsby-plugin-netlify-cms',

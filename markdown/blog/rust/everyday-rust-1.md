@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 每日rust:1.学习资料汇总
+title: rust学习资料汇总
 date: 2018-11-03T15:04:10.000Z
 description: 学习rust吧,拥抱wasm,拥抱rust区块链开发.本文包含:开发环境搭建,学习教程,区块链和wasm相关.
 tags:

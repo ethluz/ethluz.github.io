@@ -126,6 +126,6 @@ Launching subshell in virtual environment…
 echo "source /Users/luz/.local/share/virtualenvs/flask-site-9FpTxb5n/bin/activate">>.env
 ```
 特别要注意.env文件开头时source,复制pipenv shell的结果时要注意.
-*注意:*当你设置.env文件后,重新用命令进入这个文件将会提示你:
-![](DraggedImage.png)
-输入y即可.
+<!-- *注意:*当你设置.env文件后,重新用命令进入这个文件将会提示你:
+
+输入y即可. -->
